@@ -55,7 +55,7 @@
   // 传入小图和大图的地址
   const loader = new ProgressiveLoad('/common/blog_bg_min.png', '/common/blog_bg.png');
   // 传入当前dom的节点
-  const target = document.getElementById('page-header');
-  if (target.children[0]) {
-    target.insertBefore(loader.container, target.children[0]);
-  }
+  // const target = document.getElementById('page-header');
+  // if (target.children[0]) {
+  //   target.insertBefore(loader.container, target.children[0]);
+  // }
