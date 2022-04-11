@@ -4,6 +4,7 @@
     <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/.deploy_git" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/1477017264.github.io" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/DaDioBlog-back" vcs="Git" />
   </component>
 </project>
