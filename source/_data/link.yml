@@ -4,6 +4,25 @@
       link: https://space.bilibili.com/54369666?spm_id_from=333.1007.0.0
       avatar: /img/head.jpg
       descr: 欢迎关注我的B站账号！
+    - name: 1477017264
+      link: https://github.com/1477017264
+      avatar: https://avatars.githubusercontent.com/u/59819893?v=4
+      descr: 我的Github
+
+- class_name: 一些大佬们
+  link_list:
+    - name: ConstOwn
+      link: https://blog.juanertu.com/
+      avatar: https://blog.juanertu.com/images/avatar.png
+      descr: 没有他就没有我的博客！非常感谢！
+    - name: 白衣卿相
+      link: http://demian.wang/
+      avatar: http://demian.wang/common/avatar.jpeg
+      descr: 非常感谢对我提供的帮助！
+    - name: Akilar の糖果屋
+      link: https://akilar.top/
+      avatar: https://npm.elemecdn.com/akilar-candyassets/image/author3.webp
+      descr: 非常感谢对我提供的帮助！
 
 - class_name: 值得访问的网站
   link_list:

@@ -8,11 +8,12 @@ menu:
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
   娱乐||fas fa-list:
-    Music: /music/ || fas fa-music
-    Movie: /movies/ || fas fa-video
+    # Music: /music/ || fas fa-music
+    # Movie: /movies/ || fas fa-video
+    相册图库: /gallery/ || fa-solid fa-photo-film
   链接||fas fa-link:
     友情链接: /link/ || fas fa-link
-    关于我: /about/ || fas fa-heart
+    给我留言: /message/ || fa-solid fa-comment-dots
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -86,7 +87,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page 
-index_img:  './img/blog_bg.png'
+index_img:  '/common/blog_bg.png'
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: './img/topImg.jpg'
@@ -827,10 +828,15 @@ inject:
     - <link rel="stylesheet" href="/mycss/background.css">
     - <link rel="stylesheet" href="/css/custom.css"  media="defer" onload="this.media='all'">
     - <link rel="stylesheet" href="/common/progressive/index.css">
-
+    - '<style type="text/css">.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body{left:-66px!important}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover{left:0!important}</style>'
+    - <link rel="preconnect" href="https://fonts.gstatic.com">
+    - <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zyoushuo/Blog@latest/hexo/css/loading_style_1.css" > # spinner-box风格样式文件
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zyoushuo/Blog@latest/hexo/css/loading_style_2.css" > # gear风格样式文件
   bottom:
     - <div class="aplayer no-destroy" data-id="8429082619" data-server="tencent" data-type="playlist" data-fixed="true" data-autoplay="true"> </div>
     - <script src="/common/progressive/index.js"></script>
+    - <script async src="/js/grayscale.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
