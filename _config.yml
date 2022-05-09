@@ -204,5 +204,14 @@ baidu_url_submit:
   token: 1w9TmAihdbWDEhT8 # 秘钥，百度站长平台 > 推送接口 > 接口调用地址中token字段
   path: baidu_urls.txt # 文本文档的地址， 新链接会保存在此文本文档里，不用改
 
-
+#ICP:
+#  enable: true  # 是否启用ICP
+#  url: http://www.beian.miit.gov.cn/  # 点击后的链接地址
+#  text: 苏ICP备2021006420号  # 备案号
+#  icon: https://static.dy208.cn/o_1dfilp8ruo521thr1hvf18ji17soa.png # 图标
+#NSP:
+#  enable: false   # 是否启用NSP
+#  url: http://www.beian.gov.cn/  # 点击后的链接地址
+#  text: 川公网安备 xxxxx号    # 公安备案号
+#  icon: https://blog.imashimaro.com/images/20200805012127.png  # 图标
 
