@@ -1,35 +1,32 @@
 ---
 title: 壁纸
 date: 2022-04-13 01:54:39
-tags: 图库
-top_img: 'https://cdn.jsdelivr.net/gh/1477017264/PicGoGallery/wallpaper/wallpaper6.jpg'
-keywords: 壁纸
+keywords: [摄影,雏菊,胶片,壁纸]
 type: gallery
 comments: false
 ---
 
 {% gallery %}
-![](https://cdn.jsdelivr.net/gh/1477017264/PicGoGallery/wallpaper/wallpaper1.jpg)
-![](https://cdn.jsdelivr.net/gh/1477017264/PicGoGallery/wallpaper/wallpaper2.jpg)
-![](https://cdn.jsdelivr.net/gh/1477017264/PicGoGallery/wallpaper/wallpaper3.jpg)
-![](https://cdn.jsdelivr.net/gh/1477017264/PicGoGallery/wallpaper/wallpaper4.png)
-![](https://cdn.jsdelivr.net/gh/1477017264/PicGoGallery/wallpaper/wallpaper5.jpg)
-![](https://cdn.jsdelivr.net/gh/1477017264/PicGoGallery/wallpaper/wallpaper6.jpg)
-![](https://cdn.jsdelivr.net/gh/1477017264/PicGoGallery/wallpaper/wallpaper7.jpg)
-![](https://cdn.jsdelivr.net/gh/1477017264/PicGoGallery/wallpaper/wallpaper8.jpg)
-![](https://cdn.jsdelivr.net/gh/1477017264/PicGoGallery/wallpaper/wallpaper9.jpg)
-![](https://cdn.jsdelivr.net/gh/1477017264/PicGoGallery/wallpaper/wallpaper10.jpg)
-![](https://cdn.jsdelivr.net/gh/1477017264/PicGoGallery/wallpaper/wallpaper11.jpg)
-![](https://cdn.jsdelivr.net/gh/1477017264/PicGoGallery/wallpaper/wallpaper12.jpg)
-![](https://cdn.jsdelivr.net/gh/1477017264/PicGoGallery/wallpaper/wallpaper13.jpg)
-![](https://cdn.jsdelivr.net/gh/1477017264/PicGoGallery/wallpaper/wallpaper14.jpg)
-![](https://cdn.jsdelivr.net/gh/1477017264/PicGoGallery/wallpaper/wallpaper15.jpg)
-![](https://cdn.jsdelivr.net/gh/1477017264/PicGoGallery/wallpaper/wallpaper16.jpg)
-![](https://cdn.jsdelivr.net/gh/1477017264/PicGoGallery/wallpaper/wallpaper17.jpg)
-![](https://cdn.jsdelivr.net/gh/1477017264/PicGoGallery/wallpaper/wallpaper19.jpg)
-![](https://cdn.jsdelivr.net/gh/1477017264/PicGoGallery/wallpaper/wallpaper20.jpg)
-![](https://cdn.jsdelivr.net/gh/1477017264/PicGoGallery/wallpaper/wallpaper21.jpg)
-![](https://cdn.jsdelivr.net/gh/1477017264/PicGoGallery/wallpaper/wallpaper22.jpg)
-
+[![](https://s1.ax1x.com/2022/05/06/OuihUe.jpg)](https://imgtu.com/i/OuihUe)
+[![](https://s1.ax1x.com/2022/05/06/Ouigu6.jpg)](https://imgtu.com/i/Ouigu6)
+[![](https://s1.ax1x.com/2022/05/06/Ouis3R.jpg)](https://imgtu.com/i/Ouis3R)
+[![](https://s1.ax1x.com/2022/05/06/Ouiyg1.jpg)](https://imgtu.com/i/Ouiyg1)
+[![](https://s1.ax1x.com/2022/05/06/OuirC9.png)](https://imgtu.com/i/OuirC9)
+[![](https://s1.ax1x.com/2022/05/06/Oui6jx.jpg)](https://imgtu.com/i/Oui6jx)
+[![](https://s1.ax1x.com/2022/05/06/OuibKP.jpg)](https://imgtu.com/i/OuibKP)
+[![](https://s1.ax1x.com/2022/05/06/Oui2DK.jpg)](https://imgtu.com/i/Oui2DK)
+[![](https://s1.ax1x.com/2022/05/06/OuijUg.jpg)](https://imgtu.com/i/OuijUg)
+[![](https://s1.ax1x.com/2022/05/06/OuF9vq.jpg)](https://imgtu.com/i/OuF9vq)
+[![](https://s1.ax1x.com/2022/05/06/Ouiv5Q.jpg)](https://imgtu.com/i/Ouiv5Q)
+[![](https://s1.ax1x.com/2022/05/06/OuFp2n.jpg)](https://imgtu.com/i/OuFp2n)
+[![](https://s1.ax1x.com/2022/05/06/OuizCj.jpg)](https://imgtu.com/i/OuizCj)
+[![](https://s1.ax1x.com/2022/05/06/OuFS8s.jpg)](https://imgtu.com/i/OuFS8s)
+[![](https://s1.ax1x.com/2022/05/06/OuFPK0.jpg)](https://imgtu.com/i/OuFPK0)
+[![](https://s1.ax1x.com/2022/05/06/OuFirV.jpg)](https://imgtu.com/i/OuFirV)
+[![](https://s1.ax1x.com/2022/05/06/OuFAVU.jpg)](https://imgtu.com/i/OuFAVU)
+[![](https://s1.ax1x.com/2022/05/06/OuFEaF.jpg)](https://imgtu.com/i/OuFEaF)
+[![](https://s1.ax1x.com/2022/05/06/OuFFbT.jpg)](https://imgtu.com/i/OuFFbT)
+[![](https://s1.ax1x.com/2022/05/06/OuFV54.jpg)](https://imgtu.com/i/OuFV54)
+[![](https://s1.ax1x.com/2022/05/06/OuFePJ.jpg)](https://imgtu.com/i/OuFePJ)
 {% endgallery %}
 

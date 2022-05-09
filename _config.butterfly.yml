@@ -7,12 +7,15 @@ menu:
   归档: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
-  娱乐||fas fa-list:
+  娱乐||fa-solid fa-mug-hot:
     # Music: /music/ || fas fa-music
     # Movie: /movies/ || fas fa-video
-    相册图库: /gallery/ || fa-solid fa-photo-film
+    相册图库: /gallery/ || fa-solid fa-film
+    我的游戏: /steamgames/ || fa-brands fa-steam-symbol
+    电影频道: /movies/ || fa-solid fa-video
   链接||fas fa-link:
-    友情链接: /link/ || fas fa-link
+    友情链接: /link/ || fa-solid fa-heart
+    网站收录: /website/ || fa-solid fa-paper-plane
     给我留言: /message/ || fa-solid fa-comment-dots
 
 # Code Blocks (代碼相關)
@@ -22,7 +25,7 @@ highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / 
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
-highlight_height_limit: false # unit: px
+highlight_height_limit: 200 # unit: px
 code_word_wrap: false
 
 # copy settings
@@ -37,10 +40,10 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  fab fa-github: https://github.com/1477017264 || Github
-  fa-regular fa-envelope: mailto:x18550647894@gmail.com || Email
-  fa-brands fa-instagram: https://www.instagram.com/dadio_photography || Instagram
-
+  fa-brands fa-github-square: https://github.com/1477017264 || Github
+  fa-brands fa-steam-square: https://steamcommunity.com/profiles/76561198359636590/ || Steam
+  fa-solid fa-square-envelope: mailto:1477017264@qq.com || Email
+  fa-brands fa-instagram-square: https://www.instagram.com/dadio_photography || Instagram
 # search (搜索)
 # --------------------------------------
 
@@ -87,7 +90,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page 
-index_img:  '/common/blog_bg.png'
+index_img: transparent
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: './img/topImg.jpg'
@@ -136,6 +139,9 @@ error_404:
   subtitle: '哦豁 这个页面我还没写 (＠_＠;)'
   background: /img/404.jpg
 
+# 友链样式，butterfly为默认样式，volantis为站点卡片样式.flexcard为弹性卡片样式
+flink_style: flexcard # butterfly | volantis | flexcard
+
 post_meta:
   page: # Home Page
     date_type: created # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
@@ -148,7 +154,7 @@ post_meta:
     date_format: date # date/relative 顯示日期還是相對日期
     categories: true # true or false 文章頁是否顯示分類
     tags: true # true or false 文章頁是否顯示標籤
-    label: true # true or false 顯示描述性文字
+    label: false # true or false 顯示描述性文字
 
 # wordcount (字數統計)
 wordcount:
@@ -163,7 +169,7 @@ wordcount:
 # 3: auto_excerpt (default)
 # false: do not show the article introduction
 index_post_content:
-  method: 2
+  method: false
   length: 500 # if you set method to 2 or 3, the length need to config
 
 # anchor
@@ -267,6 +273,17 @@ comments:
   count: false # Display comment count in post's top_img
   card_post_count: false # Display comment count in Home Page
 
+envelope_comment:
+  enable: true #开关
+  cover: https://s1.ax1x.com/2022/05/06/Ouiv5Q.jpg #信笺封面图
+  message: #信笺内容，支持多行
+    - 有什么想问的？
+    - 有什么想说的？
+    - 有什么想吐槽的？
+    - 哪怕是有什么想吃的，都可以告诉我哦~
+  bottom: 自动书记人偶竭诚为您服务！ #信笺结束语，只能单行
+  height: #调整信笺划出高度，默认1050px
+
 # disqus
 # https://disqus.com/
 disqus:
@@ -339,7 +356,7 @@ facebook_comments:
 twikoo:
   envId: 'dadio-4gqe44lrd4788b52'
   region:
-  visitor: false
+  visitor: true
   option:
 
 # Giscus
@@ -358,7 +375,7 @@ giscus:
 
 # Chat Button [recommend]
 # It will create a button in the bottom right corner of website, and hide the origin button
-chat_btn: false
+chat_btn: true
 
 # The origin chat button is displayed when scrolling up, and the button is hidden when scrolling down
 chat_hide_show: false
@@ -372,8 +389,8 @@ chatra:
 # tidio
 # https://www.tidio.com/
 tidio:
-  enable: false
-  public_key:
+  enable: true
+  public_key: y80levumavrrspbkqlb9i1vtgaskwdqb
 
 # daovoice
 # http://daovoice.io/
@@ -446,10 +463,10 @@ google_adsense:
 # --------------------------------------
 
 site_verification:
-  # - name: google-site-verification
-  #   content: xxxxxx
-  # - name: baidu-site-verification
-  #   content: xxxxxxx
+   - name: google-site-verification
+     content: xfYu4MricMHfpQgAsWGZswzHBa-2dPv8twJJVV8fIG8
+   - name: baidu-site-verification
+     content: code-mRyq76rVmG
 
 # Beautify/Effect (美化/效果)
 # --------------------------------------
@@ -464,11 +481,11 @@ theme_color:
   button_hover: "#ffb8b8"
   text_selection: "#ffb8b8"
   link_color: "#ffb8b8"
-  meta_color: "#333"
+  meta_color:
   hr_color: "#666"
   code_foreground: "#F47466"
   code_background: "rgba(27, 31, 35, .05)"
-  toc_color: "#f8a5c2"
+  toc_color: "#ffb8b8"
   blockquote_padding_color: "#f8a5c2"
   blockquote_background_color: "#49b1f5"
   scrollbar_color: "#ffb8b8"
@@ -489,7 +506,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(/img/bg.jpg)
+background: '/common/blog_bg.png'
 
 # Footer Background
 footer_bg: 
@@ -499,6 +516,52 @@ rightside-bottom: 105px
 
 # Enter transitions (開啓網頁進入效果)
 enter_transitions: true
+
+# footer_beautify
+# 页脚计时器：[Native JS Timer](https://akilar.top/posts/b941af/)
+# 页脚徽标：[Add Github Badge](https://akilar.top/posts/e87ad7f8/)
+
+
+
+footer_beautify:
+  enable:
+    timer: true # 计时器开关
+    bdage: false # 徽标开关
+  priority: 5 #过滤器优先权
+  enable_page: all # 应用页面
+  exclude: #屏蔽页面
+#  - /archives/
+#  - /link/
+#  - /gallery/
+#  - /post/
+  layout: # 挂载容器类型
+    type: id
+    name: footer-wrap
+    index: 0
+  # 计时器部分配置项
+  runtime_js: "/js/custom/runtime.js"
+  runtime_css: "/css/custom/runtime.css"
+  # 徽标部分配置项
+#  swiperpara: 3 #若非0，则开启轮播功能，每行徽标个数
+#  bdageitem:
+#    - link: https://hexo.io/ #徽标指向网站链接
+#      shields: https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo #徽标API
+#      message: 博客框架为Hexo_v5.4.0 #徽标提示语
+#    - link: https://butterfly.js.org/
+#      shields: https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender
+#      message: 主题版本Butterfly_v3.8.2
+#    - link: https://www.jsdelivr.com/
+#      shields: https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr
+#      message: 本站使用JsDelivr为静态资源提供CDN加速
+#    - link: https://github.com/
+#      shields: https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub
+#      message: 本站项目由Github托管
+#    - link: http://creativecommons.org/licenses/by-nc-sa/4.0/
+#      shields: https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&logo=Claris
+#      message: 本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可
+#  swiper_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css
+#  swiper_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js
+#  swiperbdage_init_js: https://npm.elemecdn.com/hexo-butterfly-footer-beautify/lib/swiperbdage_init_js.min.js
 
 # Background effects (背景特效)
 # --------------------------------------
@@ -566,7 +629,7 @@ display_mode: light
 beautify:
   enable: true
   field: post # site/post
-  title-prefix-icon: # '\f0c1'
+  title-prefix-icon: '\f4cd'
   title-prefix-icon-color: # '#F47466'
 
 # Global font settings
@@ -574,7 +637,7 @@ beautify:
 font:
   global-font-size:
   code-font-size:
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+  font-family: FZXIANGSU, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
   code-font-family:
 
 # Font settings for the site title and site subtitle
@@ -586,7 +649,7 @@ blog_title_font:
 # The setting of divider icon (水平分隔線圖標設置)
 hr_icon:
   enable: true
-  icon: # the unicode value of Font Awesome icon, such as '\3423'
+  icon: \f0fb # the unicode value of Font Awesome icon, such as '\3423'
   icon-top:
 
 # the subtitle on homepage (主頁subtitle)
@@ -618,7 +681,7 @@ aside:
   enable: true
   hide: false
   button: true
-  mobile: true # display on mobile
+  mobile: false # display on mobile
   position: right # left or right
   card_author:
     enable: true
@@ -658,6 +721,11 @@ aside:
     post_count: true
     last_push_date: true
     sort_order: # Don't modify the setting unless you know how it works
+  card_hitokoto:
+    enable: true
+  card_ip:
+    enable: true
+
 
 # busuanzi count for PV / UV in site
 # 訪問人數
@@ -709,7 +777,7 @@ darkmode:
   # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
   # autoChangeMode: false
-  autoChangeMode: false
+  autoChangeMode: 2
 
 # Don't modify the following settings unless you know how they work (非必要請不要修改 )
 # Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
@@ -797,10 +865,10 @@ pangu:
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: false
+  enable: true
   field: site # site/post
   placeholder:
-  blur: false
+  blur: true
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
@@ -826,16 +894,31 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/mycss/background.css">
-    - <link rel="stylesheet" href="/css/custom.css"  media="defer" onload="this.media='all'">
-    - <link rel="stylesheet" href="/common/progressive/index.css">
-    - '<style type="text/css">.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body{left:-66px!important}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover{left:0!important}</style>'
+    - <link rel="stylesheet" href="/css/custom/custom.css"  media="defer" onload="this.media='all'">
+    - '<style type="text/css">.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body{left:-66px!important;}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover{left:0!important}</style>'
     - <link rel="preconnect" href="https://fonts.gstatic.com">
     - <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zyoushuo/Blog@latest/hexo/css/loading_style_1.css" > # spinner-box风格样式文件
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zyoushuo/Blog@latest/hexo/css/loading_style_2.css" > # gear风格样式文件
+    - <link rel="stylesheet" href="/css/custom/twikoo_beautify.css"  media="defer" onload="this.media='all'">
+    - <link rel="stylesheet" href="/css/custom/fixed_comment.css"  media="defer" onload="this.media='all'">
+    - <link rel="stylesheet" href="/css/custom/frosted_glass.css">
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HCLonely/images@master/others/heartbeat.min.css">
+    - <link rel="stylesheet" href="//at.alicdn.com/t/font_3334078_c14zfibvbj8.css"  media="defer" onload="this.media='all'">
+    - <link rel="stylesheet" href="/css/custom/modify.css">
+    - <link rel="stylesheet" href="/css/custom/header_center.css">
+    - <link rel="stylesheet" href="/css/custom/steamgames.css">
+    - <link rel="stylesheet" href="/css/custom/doubanmovies.css">
+
   bottom:
-    - <div class="aplayer no-destroy" data-id="8429082619" data-server="tencent" data-type="playlist" data-fixed="true" data-autoplay="true"> </div>
-    - <script src="/common/progressive/index.js"></script>
+    - <div class="aplayer no-destroy" data-id="8429082619" data-server="tencent" data-type="playlist" data-fixed="true" data-autoplay="true" > </div>
+    - <script data-pjax defer src="/js/custom/fixed_comment.js"></script>
+    - <script async src="/js/custom/diytitle.js"></script>
+    - <script data-pjax defer src="/js/custom/fixed_card_widget.js"></script>
+    - <script async src="//at.alicdn.com/t/font_2264842_3izu8i5eoc2.js"></script>
+    - <script data-pjax async src="/js/custom/rdmbkg.js"></script>
+    - <script data-pjax async src="/js/custom/modify.js"></script>
+    - <script src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
+    - <script data-pjax async src="/js/custom/ip_content.js"></script>
+    - <script src="/js/custom/sun_moon.js"></script>
     # - <script async src="/js/grayscale.js"></script>
 
 # CDN
@@ -858,7 +941,7 @@ CDN:
   disqusjs:
   disqusjs_css:
   utterances:
-  twikoo:
+  twikoo: https://cdn.jsdelivr.net/npm/twikoo@1.5.9/dist/twikoo.all.min.js
   waline:
   giscus:
 
@@ -928,4 +1011,109 @@ CDN:
   prismjs_lineNumber_js:
   prismjs_autoloader:
 
-  
+#侧栏悬浮卡片控制按钮
+#https://akilar.top/posts/451ac5f8/
+fixed_card_widget:
+  enable: true
+  page:  #页面显示按钮
+    - type: class #侧栏卡片选择器类型
+      name: card-info #侧栏卡片选择器名称
+      index: 0 #侧栏卡片选择器序列
+      icon: fas fa-address-book #图标
+      title: 用户信息 #悬停显示提示
+    - type: class
+      name: card-hitokoto
+      index: 0
+      icon: fas fa-quote-left
+      title: 一言
+    - type: class
+      name: card-recent-post
+      index: 0
+      icon: fas fa-history
+      title: 最新文章
+    - type: class
+      name: card-categories
+      index: 0
+      icon: fas fa-folder-open
+      title: 分类
+    - type: class
+      name: card-tags
+      index: 0
+      icon: fas fa-tags
+      title: 标签
+    - type: class
+      name: card-archives
+      index: 0
+      icon: fas fa-archive
+      title: 归档
+    - type: class
+      name: card-ip
+      index: 0
+      icon: fa-solid fa-location-dot
+      title: 访问用户信息
+    - type: class
+      name: card-webinfo
+      index: 0
+      icon: fas fa-chart-line
+      title: 网站咨询
+  post: #文章页显示按钮
+    - type: class
+      name: card-info
+      index: 0
+      icon: fas fa-address-book
+      title: 用户信息
+    - type: class
+      name: card-recent-post
+      index: 0
+      icon: fas fa-history
+      title: 最新文章
+
+#站点卡片过渡动画
+wowjs:
+  enable: true #控制动画开关。true是打开，false是关闭
+  priority: 10 #过滤器优先级
+  mobile: true #移动端是否启用，默认移动端禁用
+  animateitem:
+    - class: recent-post-item #必填项，需要添加动画的元素的class
+      style: animate__fadeInUp #必填项，需要添加的动画
+      duration: 0.5s #选填项，动画持续时间，单位可以是ms也可以是s。例如3s，700ms。
+      delay: 0s #选填项，动画开始的延迟时间，单位可以是ms也可以是s。例如3s，700ms。
+      offset: 50 #选填项，开始动画的距离（相对浏览器底部）
+      iteration: 1 #选填项，动画重复的次数
+    - class: card-widget
+      style: animate__fadeInUp
+      duration: 0.5s #选填项，动画持续时间，单位可以是ms也可以是s。例如3s，700ms。
+      delay: 0s #选填项，动画开始的延迟时间，单位可以是ms也可以是s。例如3s，700ms。
+      offset: 50 #选填项，开始动画的距离（相对浏览器底部）
+      iteration: 1 #选填项，动画重复的次数
+    - class: site-card
+      style: animate__fadeInUp
+      duration: 0.5s #选填项，动画持续时间，单位可以是ms也可以是s。例如3s，700ms。
+      delay: 0s #选填项，动画开始的延迟时间，单位可以是ms也可以是s。例如3s，700ms。
+      offset: 50 #选填项，开始动画的距离（相对浏览器底部）
+      iteration: 1 #选填项，动画重复的次数
+    - class: categoryBar
+      style: animate__fadeInUp #必填项，需要添加的动画
+      duration: 0.5s #选填项，动画持续时间，单位可以是ms也可以是s。例如3s，700ms。
+      delay: 0s #选填项，动画开始的延迟时间，单位可以是ms也可以是s。例如3s，700ms。
+      offset: 50 #选填项，开始动画的距离（相对浏览器底部）
+      iteration: 1 #选填项，动画重复的次数
+
+animate_css: https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/animate.min.css
+wow_js: https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow.min.js
+wow_init_js: https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js
+
+categoryBar:
+  enable: true
+  column: odd # 显示列数,odd：3列 | even：4列
+  row: 1 #显示行数，默认两行，超过行数切换为滚动显示
+  descr:
+    - 一些前端的东西
+    - 博客魔改记录
+    - 网站测试用
+    - 我收藏的黑胶
+  cover:
+    - url('https://s1.ax1x.com/2022/05/06/OuFV54.jpg')
+    - url('https://s1.ax1x.com/2022/05/06/OuFS8s.jpg')
+    - url('https://s1.ax1x.com/2022/05/06/OuFp2n.jpg')
+    - url('https://s1.ax1x.com/2022/05/06/OuFPK0.jpg')

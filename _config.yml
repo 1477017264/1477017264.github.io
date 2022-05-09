@@ -13,8 +13,8 @@ timezone: ""
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://1477017264.github.io/
-permalink: :year/:month/:day/:title/
+url: https://1477017264.github.io
+permalink: posts/:abbrlink/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -62,7 +62,7 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ""
-  per_page: 10
+  per_page: 8
   order_by: -date
 
 # Category & Tag
@@ -102,48 +102,18 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: "git"
-  repo:
-    github: https://github.com/1477017264/1477017264.github.io.git
-  branch: main
+  - type: "git"
+    repo:
+      github: https://github.com/1477017264/1477017264.github.io.git
+    branch: master
+  - type: baidu_url_submitter
+
 
 search:
   path: search.xml
   field: post
   format: html
   limit: 10000
-
-douban:
-  user: mythsman
-  builtin: false
-  book:
-    title: "This is my book title"
-    quote: "This is my book quote"
-    meta: true
-    comments: true
-    top_img: https://cccccc.png
-    aside: true
-    path: books
-    limit:
-  movie:
-    title: "This is my movie title"
-    quote: "This is my movie quote"
-    meta: true
-    comments: true
-    top_img: https://cccccc.png
-    aside: true
-    path: movies
-    limit:
-  game:
-    title: "This is my game title"
-    quote: "This is my game quote"
-    meta: true
-    comments: true
-    top_img: https://cccccc.png
-    aside: true
-    path: games
-    limit:
-  timeout: 10000
 
 #Live2D动画
 live2d:
@@ -161,14 +131,78 @@ live2d:
     width: 110
     height: 160
   mobile:
-    show: true
-#侧边时钟
-electric_clock:
-  priority: 90
+    show: false
+
+githubcalendar:
   enable: true
-  enable_page: all
-  layout:
-    type: class
-    name: sticky_layout
-    index: 0
-  temple_html: '<div class="card-widget card-clock"><div class="card-glass"><div class="card-background"><div class="card-content"><div id="hexo_electric_clock"><img id="card-clock-loading" src="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-clock/clock/images/weather/loading.gif" style="height: 120px; width: 100%;" data-ll-status="loading" class="entered loading"></div></div></div></div></div>'
+  enable_page: /  # 表示只在根目录(首页)显示
+  user: 1477017264	  # 替换成你 GitHub 的用户名
+  layout_id: recent-posts
+  githubcalendar_html: '<div class="recent-post-item" style="width:100%;height:auto;padding:10px;"><div id="github_loading" style="width:10%;height:100%;margin:0 auto;display: block"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 50 50" style="enable-background:new 0 0 50 50" xml:space="preserve"><path fill="#d0d0d0" d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z" transform="rotate(275.098 25 25)"><animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="0.6s" repeatCount="indefinite"></animateTransform></path></svg></div><div id="github_container"></div></div>'
+  pc_minheight: 280px
+  mobile_minheight: 0px
+  color: "['#f1f8ff', '#fbe9f1', '#f8d3e2', '#f1a7c6', '#ea7ba9', '#e2508d', '#db2470', '#af1d5a', '#841543', '#580e2d','#2c0716']"
+  api: https://python-github-calendar-api.vercel.app/api
+  # api: https://python-gitee-calendar-api.vercel.app/api
+  calendar_js: https://cdn.jsdelivr.net/gh/Zfour/hexo-github-calendar@1.16/hexo_githubcalendar.js
+
+# tag-plugins-plus
+# see https://akilar.top/posts/615e2dec/
+tag_plugins:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  issues: false #issues标签依赖注入开关
+  link:
+    placeholder: /img/link.png #link_card标签默认的图标图片
+  CDN:
+    anima: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css #动画标签anima的依赖
+    jquery: https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js #issues标签依赖
+    issues: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/issues.js #issues标签依赖
+    iconfont: //at.alicdn.com/t/font_2032782_8d5kxvn09md.js #参看https://akilar.top/posts/d2ebecef/
+    carousel: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
+    tag_plugins_css: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
+
+steam:
+  enable: true
+  steamId: '76561198359636590' #steam 64位Id
+  path:
+  title: 我的Steam游戏库
+  quote: 'IUuuuuu'
+  tab: all
+  length: 1000
+  imgUrl: ''
+  proxy:
+    host:
+    port:
+  extra_options:
+    key: value
+
+douban:
+  user: 180138898
+  builtin: true
+  movie:
+    title: '我的放映厅'
+    quote: 'DaDio'
+    meta: false
+    comments: false
+    top_img: https://cccccc.png
+    aside: true
+    path: movies
+    limit:
+  timeout: 10000
+
+# 站点地图
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
+# 主动推送百度，被百度收录
+baidu_url_submit:
+  count: 10 # 提交最新的10个链接
+  host: https://1477017264.github.io # 百度站长平台中注册的域名
+  token: 1w9TmAihdbWDEhT8 # 秘钥，百度站长平台 > 推送接口 > 接口调用地址中token字段
+  path: baidu_urls.txt # 文本文档的地址， 新链接会保存在此文本文档里，不用改
+
+
+

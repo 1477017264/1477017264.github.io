@@ -15,14 +15,14 @@
       link: https://blog.juanertu.com/
       avatar: https://blog.juanertu.com/images/avatar.png
       descr: 没有他就没有我的博客！非常感谢！
-    - name: 白衣卿相
+    - name: 假想国
       link: http://demian.wang/
-      avatar: http://demian.wang/common/avatar.jpeg
+      avatar: https://demian.wang/common/avatar.jpeg
       descr: 非常感谢对我提供的帮助！
     - name: Akilar の糖果屋
       link: https://akilar.top/
       avatar: https://npm.elemecdn.com/akilar-candyassets/image/author3.webp
-      descr: 非常感谢对我提供的帮助！
+      descr: 非常感谢在博客魔改中对我提供的帮助！
 
 - class_name: 值得访问的网站
   link_list:
