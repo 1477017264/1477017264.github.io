@@ -46,7 +46,7 @@ jobs:
           hexo clean
           hexo generate
 
-      - name: 部署到github pages
+      - name: 部署到github iuhorizontal
         run: |
           git config --global user.name "1477017264"
           git config --global user.email "1477017264@qq.com"
