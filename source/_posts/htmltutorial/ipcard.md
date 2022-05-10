@@ -12,6 +12,8 @@ keywords:
   - Hexo
   - Butterfly
   - IP
+  - 博客
+  - 侧边栏
   - 归属地
   - 访客地图
 categories: 博客魔改记录
