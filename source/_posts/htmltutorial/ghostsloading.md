@@ -28,6 +28,9 @@ date: 2022-05-10 00:05:39
 ##更新日志
 {% folding 更新日志 %}
 {% timeline %}
+<!-- timeline 2022.05.12 -->
+新增爱心小幽灵加载动画，但还未适配移动端
+<!-- endtimeline -->
 <!-- timeline 2022.05.10 -->
 新增带小星星的小幽灵加载动画
 <!-- endtimeline -->
@@ -35,7 +38,7 @@ date: 2022-05-10 00:05:39
 {% endfolding %}
 
 ##教程
-###带星星小幽灵加载动画
+###带星星小幽灵
 {% folding 带星星小幽灵加载动画预览 %}
 ![](https://s1.ax1x.com/2022/05/10/OYAEUH.gif)
 {% endfolding %}
@@ -478,6 +481,552 @@ date: 2022-05-10 00:05:39
   .star-6 
     .star-element 
       animation-delay 350ms
+```
+
+###爱心小幽灵
+{% folding 爱心小幽灵加载动画预览 %}
+![](https://s1.ax1x.com/2022/05/11/OwSTh9.gif)
+{% endfolding %}
+
+1. 修改 `[Blogroot]\themes\butterfly\layout\includes\loading\loading.pug`,复制以下代码替换源文件。
+```puml
+#loading-box
+  .loading-container
+    .egg
+      - var legs = 0;
+      ul.egg-ul
+        while legs < 7
+          - legs++;
+          li.egg-list
+        .face
+          .eyes
+          .smile
+          .cheeks
+          .shine
+    #egg-shadow.egg-shadow
+    .loading-heart
+      .loading-light
+    .ghost
+      - var legs = 0;
+      ul.ghost-ul
+        while legs < 9
+          - legs++;
+          li.ghost-list
+      .face
+        .eyes
+        .smile
+        .cheeks
+    #ghost-shadow.ghost-shadow
+```
+2. 修改 `[Blogroot]\themes\butterfly\source\css\_layout\loading.styl`,复制以下代码替换源文件。
+```stylus
+#loading-box
+  position fixed
+  z-index 100005
+  width 100vw
+  height 100vh
+  background #48befe
+  overflow hidden
+  &.loaded
+   z-index -1000
+   .loading-container 
+     display none
+
+.loading-container 
+  position absolute
+  white-space nowrap
+  left 50%
+  top 50%
+  transform translate(-50%, -50%)
+.ghost-ul
+  margin 0
+  padding 0
+  .ghost-list
+    list-style none
+.egg-ul 
+  margin 0
+  padding 0
+  .egg-list 
+    list-style none
+
+.egg 
+  width 175px
+  height 220px
+  border-radius 100px 100px 0px 0px
+  background #fdfeff
+  position relative
+  display inline-block
+  animation floating 5s ease-out infinite
+  left -5%
+  .face 
+    width 130px
+    height 130px
+    background #ffdb10
+    position absolute
+    margin 15% 15%
+    border-radius 100%
+    box-shadow inset -10px 1px 0 #ffcc24
+    .eyes 
+      width 15px
+      height 15px
+      background #000
+      border-radius 100%
+      position relative
+      top 55px
+      left 38px
+      animation blink 3s infinite 2s
+      &::after 
+        content ""
+        width 15px
+        height 15px
+        position absolute
+        background #000
+        border-radius 100%
+        left 50px
+    .smile 
+      position relative
+      border-bottom-left-radius 90px
+      border-bottom-right-radius 90px
+      width 30px
+      height 15px
+      background #000
+      left 55px
+      top 60px
+      &::after 
+        content ""
+        position absolute
+        width 10px
+        height 5px
+        background #ff7e7e
+        border-radius 100%
+        left 10px
+        top 8px
+    .cheeks 
+      position relative
+      width 12px
+      height 12px
+      background #ff7e7e
+      border-radius 100%
+      opacity 0.5
+      top 40px
+      left 30px
+      &::after 
+        content ""
+        position absolute
+        width 12px
+        height 12px
+        background #ff7e7e
+        border-radius 100%
+        left 67px
+    .shine 
+      position relative
+      width 8px
+      height 20px
+      background #fdfeff
+      border-radius 200px
+      top -10px
+      left 12px
+      transform rotate(20deg)
+      &::after 
+        position absolute
+        content ""
+        width 8px
+        height 8px
+        background #fdfeff
+        border-radius 200px
+        top -15px
+        left 6px
+  .egg-ul  
+    display flex
+  .egg-list
+    position relative
+    border-radius 200px
+    &:nth-child(odd) 
+      background #fdfeff
+    &:nth-child(even) 
+      background #48befe
+    &:nth-child(1) 
+      width 30px
+      height 60px
+      top 175px
+      animation anim1 1.5s ease-out infinite
+    &:nth-child(2) 
+      width 20px
+      height 50px
+      top 185px
+      animation anim2 3s ease-out infinite
+    &:nth-child(3) 
+      width 28.5px
+      height 60px
+      top 195px
+      animation anim3 1s ease-in-out infinite
+    &:nth-child(4) 
+      width 20px
+      height 50px
+      top 210px
+      animation anim4 2.2s ease-out infinite
+    &:nth-child(5) 
+      width 28.5px
+      height 60px
+      top 190px
+      animation anim3 1.5s ease-out infinite
+    &:nth-child(6) 
+      width 20px
+      height 60px
+      top 200px
+      animation anim2 4s ease-out infinite
+    &:nth-child(7) 
+      width 28.5px
+      height 60px
+      top 190px
+      animation anim1 1.5s ease-out infinite
+.ghost 
+  width 175px
+  height 220px
+  border-radius 100px 100px 0px 0px
+  background #fdfeff
+  position relative
+  display inline-block
+  animation floating 2s ease-out infinite
+  opacity 0.75
+  left 5%
+.ghost 
+  &::before 
+    content ""
+    width 175px
+    height 220px
+    border-radius 100px 100px 0px 0px
+    background #fdfeff
+    position relative
+    display inline-block
+    position absolute
+    box-shadow inset -15px 1px 0px #efefef
+.ghost 
+  &.heart 
+    &::after 
+      content ""
+      width 175px
+      height 220px
+      border-radius 100px 100px 0px 0px
+      background #fdfeff
+      position relative
+      display inline-block
+      position absolute
+      box-shadow inset -15px 1px 0px #efefef
+.ghost 
+  .face 
+    width 130px
+    height 130px
+    background transparent
+    position absolute
+    margin -20% 10%
+    border-radius 100%
+.ghost 
+  .face 
+    .eyes 
+      opacity 0.5
+      width 15px
+      height 15px
+      background #000
+      border-radius 100%
+      position relative
+      top 55px
+      left 3px
+      animation blink 5s infinite
+.ghost 
+  .face 
+    .eyes 
+      &::after 
+        content ""
+        width 15px
+        height 15px
+        position absolute
+        background #000
+        border-radius 100%
+        left 50px
+.ghost 
+  .face 
+    .smile 
+      position relative
+      opacity 0.5
+      border-bottom-left-radius 50px
+      border-bottom-right-radius 50px
+      width 10px
+      height 6px
+      box-sizing initial
+      background transparent
+      border 5px solid #000
+      left 25px
+      top 55px
+.ghost 
+  .face 
+    .smile 
+      &::before 
+        background #fdfeff
+        width 30px
+        height 7px
+        content ""
+        position absolute
+        left -10px
+        top -5.5px
+.ghost 
+  .face 
+    .smile 
+      &::after 
+        background #fdfeff
+        width 30px
+        height 7px
+        content ""
+        position absolute
+        left -10px
+        top -5.5px
+.ghost 
+  .face 
+    .cheeks 
+      position relative
+      width 12px
+      height 12px
+      background #ff7e7e
+      border-radius 100%
+      opacity 0.5
+      top 43px
+      left -4px
+.ghost 
+  .face 
+    .cheeks 
+      &::after 
+        content ""
+        position absolute
+        width 12px
+        height 12px
+        background #ff7e7e
+        border-radius 100%
+        left 67px
+.ghost 
+  .ghost-ul 
+    display flex
+  .ghost-list 
+    position relative
+    border-radius 200px
+    height 60px
+.ghost 
+  li 
+    &:nth-child(odd) 
+      background #fdfeff
+      width 30px
+      top 172px
+      z-index -1
+    &:nth-child(even) 
+      background #48befe
+      width 7px
+      top 215px
+.ghost 
+  li 
+    &:nth-child(1) 
+      animation ghostani 3s ease-out infinite
+    &:nth-child(3) 
+      animation ghostani 3s ease-out infinite 0.5s
+    &:nth-child(5) 
+      animation ghostani 3s ease-out infinite 1s
+    &:nth-child(7) 
+      animation ghostani 3s ease-out infinite 1.5s
+    &:nth-child(9) 
+      box-shadow inset -15px 4px #efefef
+      animation ghostani 3s ease-out infinite 2s
+.loading-heart 
+  position absolute
+  display inline-block
+  width 30px
+  height 30px
+  background red
+  left 45%
+  transform rotate(45deg)
+  animation beat 0.7s linear infinite
+.loading-heart 
+  &::before 
+    position absolute
+    content ""
+    width 30px
+    height 30px
+    background red
+    border-radius 100%
+    top -50%
+    animation beat 0.7s linear infinite
+.loading-heart 
+  &::after 
+    position absolute
+    content ""
+    width 30px
+    height 30px
+    background red
+    border-radius 100%
+    top -50%
+    animation beat 0.7s linear infinite
+.loading-heart 
+  &::after 
+    top 0%
+    left -50%
+.loading-heart 
+  .loading-light 
+    width 5px
+    height 9px
+    background white
+    position absolute
+    border-radius 200px
+    z-index 3
+    left -11px
+    top 13.5px
+    transform rotate(-10deg)
+    animation lightshift 0.7s linear infinite
+.loading-heart 
+  &::after 
+    .loading-light 
+      width 5px
+      height 12px
+      background white
+      position absolute
+      border-radius 200px
+      z-index 3
+      left -11px
+      top 13px
+      transform rotate(-10deg)
+      animation lightshift 0.7s linear infinite
+.loading-heart 
+  .loading-light 
+    &::after 
+      content ""
+      position absolute
+      z-index 3
+      width 5px
+      height 5px
+      background white
+      border-radius 200px
+      top -6px
+      left 1.5px
+.loading-heart 
+  &::after 
+    .loading-light 
+      &::after 
+        content ""
+        position absolute
+        z-index 3
+        width 5px
+        height 5px
+        background white
+        border-radius 200px
+        top -5px
+        left 1.5px
+
+.egg-shadow 
+  position absolute
+  opacity 0.2
+  width 180px
+  height 15px
+  background #000
+  top 275px
+  border-radius 100%
+.ghost-shadow 
+  position absolute
+  opacity 0.2
+  width 180px
+  height 15px
+  background #000
+  top 275px
+  border-radius 100%
+.egg-shadow#egg-shadow 
+    left -20px
+    animation shadow-ani 5s ease-out infinite
+.ghost-shadow#ghost-shadow 
+    left 195px !important
+    transform-origin center
+    animation shadow-ani 2s ease-out infinite
+@keyframes shadow-ani {
+  50% {
+    width: 170px;
+    height: 10px;
+  }
+}
+@keyframes blink  {
+	0%{
+		transform:scaleY(1)
+	}	
+	18%{
+		transform:scaleY(1)
+	}
+	20%{
+		transform:scaleY(0)
+	}	
+	25%{
+		transform:scaleY(1)
+	}	
+	38%{
+		transform:scaleY(1)
+	}	
+	40%{
+		transform:scaleY(0)
+	}	
+	45%{
+		transform:scaleY(1)
+	}
+	80% {
+		transform:scaleY(1)
+	}
+}
+@keyframes beat {
+	  20%,
+	40% {
+	    height: 40px;
+	    width: 40px;
+	  }
+	}
+@keyframes lightshift {
+  20%,
+  40% {
+    left: -15px;
+    top: 19px;
+  }
+}
+@keyframes floating {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -10px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes anim1 {
+  50% {
+    top: 180px;
+  }
+}
+
+@keyframes anim2 {
+  50% {
+    top: 178px;
+  }
+}
+
+@keyframes anim3 {
+  50% {
+    top: 205px;
+  }
+}
+
+@keyframes anim4 {
+  50% {
+    top: 205px;
+  }
+}
+
+@keyframes ghostani {
+  50% {
+    top: 180px;
+  }
+}
 ```
 
 ##后记

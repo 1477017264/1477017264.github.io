@@ -17,13 +17,22 @@
       descr: 没有他就没有我的博客！非常感谢！
     - name: 假想国
       link: http://demian.wang/
-      avatar: https://demian.wang/common/avatar.jpeg
+      avatar: http://demian.wang/common/avatar.jpeg
       descr: 非常感谢对我提供的帮助！
     - name: Akilar の糖果屋
       link: https://akilar.top/
       avatar: https://npm.elemecdn.com/akilar-candyassets/image/author3.webp
       descr: 非常感谢在博客魔改中对我提供的帮助！
-
+- class_name: 我的朋友们
+  link_list:
+    - name: COS
+      link: https://cos02.top/
+      avatar: https://s2.loli.net/2022/05/02/jFioElSCfuVrd9G.jpg
+      descr: 第一个友链
+    - name: Gallifrey’s Blog
+      link: https://gallifrey.asia
+      avatar: https://gallifrey.asia/images/shizi.png
+      descr: 我的技术归档，我的生活，我的梦
 - class_name: 值得访问的网站
   link_list:
     - name: Bilibili
