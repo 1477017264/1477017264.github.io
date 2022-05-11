@@ -185,7 +185,7 @@ douban:
     quote: 'DaDio'
     meta: false
     comments: false
-    top_img: https://cccccc.png
+    top_img:
     aside: true
     path: movies
     limit:
