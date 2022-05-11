@@ -39,7 +39,7 @@
     "hexo-renderer-stylus": "^2.0.1",
     "hexo-server": "^3.0.0",
     "hexo-steam-games": "^1.2.1",
-    "hexo-theme-butterfly": "^4.1.0",
+    "hexo-theme-butterfly": "^4.2.1",
     "hexo-theme-landscape": "^0.0.3",
     "live2d-widget-model-tororo": "^1.0.5"
   },
