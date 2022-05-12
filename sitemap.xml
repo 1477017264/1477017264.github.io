@@ -266,20 +266,6 @@
   </url>
   
   <url>
-    <loc>https://1477017264.github.io/tags/%E9%BB%91%E8%83%B6/</loc>
-    <lastmod>2022-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://1477017264.github.io/tags/%E9%9F%B3%E4%B9%90/</loc>
-    <lastmod>2022-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://1477017264.github.io/tags/%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2022-05-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -294,6 +280,13 @@
   </url>
   
   <url>
+    <loc>https://1477017264.github.io/tags/aplayer/</loc>
+    <lastmod>2022-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://1477017264.github.io/tags/%E5%8A%A0%E8%BD%BD%E5%8A%A8%E7%94%BB/</loc>
     <lastmod>2022-05-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -301,7 +294,14 @@
   </url>
   
   <url>
-    <loc>https://1477017264.github.io/tags/aplayer/</loc>
+    <loc>https://1477017264.github.io/tags/%E9%BB%91%E8%83%B6/</loc>
+    <lastmod>2022-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://1477017264.github.io/tags/%E9%9F%B3%E4%B9%90/</loc>
     <lastmod>2022-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -324,14 +324,14 @@
   </url>
   
   <url>
-    <loc>https://1477017264.github.io/categories/%E9%BB%91%E8%83%B6/</loc>
+    <loc>https://1477017264.github.io/categories/%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2022-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://1477017264.github.io/categories/%E5%89%8D%E7%AB%AF/</loc>
+    <loc>https://1477017264.github.io/categories/%E9%BB%91%E8%83%B6/</loc>
     <lastmod>2022-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
