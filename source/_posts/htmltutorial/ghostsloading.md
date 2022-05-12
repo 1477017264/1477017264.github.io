@@ -29,7 +29,7 @@ date: 2022-05-10 00:05:39
 {% folding 更新日志 %}
 {% timeline %}
 <!-- timeline 2022.05.12 -->
-新增爱心小幽灵加载动画，但还未适配移动端
+新增爱心小幽灵加载动画、发光小幽灵加载动画
 <!-- endtimeline -->
 <!-- timeline 2022.05.10 -->
 新增带小星星的小幽灵加载动画
@@ -548,94 +548,93 @@ date: 2022-05-10 00:05:39
   padding 0
   .egg-list 
     list-style none
-
 .egg 
-  width 175px
-  height 220px
+  width 87.5px
+  height 110px
   border-radius 100px 100px 0px 0px
   background #fdfeff
   position relative
   display inline-block
-  animation floating 5s ease-out infinite
+  animation floating 2.5s ease-out infinite
   left -5%
   .face 
-    width 130px
-    height 130px
+    width 65px
+    height 65px
     background #ffdb10
     position absolute
     margin 15% 15%
     border-radius 100%
     box-shadow inset -10px 1px 0 #ffcc24
     .eyes 
-      width 15px
-      height 15px
+      width 7.5px
+      height 7.5px
       background #000
       border-radius 100%
       position relative
-      top 55px
-      left 38px
+      top 27.5px
+      left 19px
       animation blink 3s infinite 2s
       &::after 
         content ""
-        width 15px
-        height 15px
+        width 7.5px
+        height 7.5px
         position absolute
         background #000
         border-radius 100%
-        left 50px
+        left 25px
     .smile 
       position relative
       border-bottom-left-radius 90px
       border-bottom-right-radius 90px
-      width 30px
-      height 15px
+      width 15px
+      height 7.5px
       background #000
-      left 55px
-      top 60px
+      left 27.5px
+      top 30px
       &::after 
         content ""
         position absolute
-        width 10px
-        height 5px
+        width 5px
+        height 2.5px
         background #ff7e7e
         border-radius 100%
-        left 10px
-        top 8px
+        left 5px
+        top 4px
     .cheeks 
       position relative
-      width 12px
-      height 12px
+      width 6px
+      height 6px
       background #ff7e7e
       border-radius 100%
       opacity 0.5
-      top 40px
-      left 30px
+      top 20px
+      left 15px
       &::after 
         content ""
         position absolute
-        width 12px
-        height 12px
+        width 6px
+        height 6px
         background #ff7e7e
         border-radius 100%
-        left 67px
+        left 33.5px
     .shine 
       position relative
-      width 8px
-      height 20px
+      width 4px
+      height 10px
       background #fdfeff
       border-radius 200px
-      top -10px
-      left 12px
+      top -5px
+      left 6px
       transform rotate(20deg)
       &::after 
         position absolute
         content ""
-        width 8px
-        height 8px
+        width 4px
+        height 4px
         background #fdfeff
         border-radius 200px
-        top -15px
-        left 6px
+        top -7.5px
+        left 3px
   .egg-ul  
     display flex
   .egg-list
@@ -646,77 +645,77 @@ date: 2022-05-10 00:05:39
     &:nth-child(even) 
       background #48befe
     &:nth-child(1) 
-      width 30px
-      height 60px
-      top 175px
-      animation anim1 1.5s ease-out infinite
+      width 15px
+      height 30px
+      top 87.5px
+      animation anim1 0.75s ease-out infinite
     &:nth-child(2) 
-      width 20px
-      height 50px
-      top 185px
-      animation anim2 3s ease-out infinite
+      width 10px
+      height 25px
+      top 92.5px
+      animation anim2 1.5s ease-out infinite
     &:nth-child(3) 
-      width 28.5px
-      height 60px
-      top 195px
-      animation anim3 1s ease-in-out infinite
+      width 14.25px
+      height 30px
+      top 97.5px
+      animation anim3 0.5s ease-in-out infinite
     &:nth-child(4) 
-      width 20px
-      height 50px
-      top 210px
-      animation anim4 2.2s ease-out infinite
+      width 10px
+      height 25px
+      top 105px
+      animation anim4 1.1s ease-out infinite
     &:nth-child(5) 
-      width 28.5px
-      height 60px
-      top 190px
-      animation anim3 1.5s ease-out infinite
+      width 14.25px
+      height 30px
+      top 95px
+      animation anim3 0.75s ease-out infinite
     &:nth-child(6) 
-      width 20px
-      height 60px
-      top 200px
-      animation anim2 4s ease-out infinite
+      width 10px
+      height 30px
+      top 100px
+      animation anim2 2s ease-out infinite
     &:nth-child(7) 
-      width 28.5px
-      height 60px
-      top 190px
-      animation anim1 1.5s ease-out infinite
+      width 14.25px
+      height 30px
+      top 95px
+      animation anim1 0.75s ease-out infinite
 .ghost 
-  width 175px
-  height 220px
+  width 87.5px
+  height 110px
   border-radius 100px 100px 0px 0px
   background #fdfeff
   position relative
   display inline-block
-  animation floating 2s ease-out infinite
+  animation floating 1s ease-out infinite
   opacity 0.75
-  left 5%
+  left 6%
 .ghost 
   &::before 
     content ""
-    width 175px
-    height 220px
+    width 87.5px
+    height 110px
     border-radius 100px 100px 0px 0px
     background #fdfeff
     position relative
     display inline-block
     position absolute
-    box-shadow inset -15px 1px 0px #efefef
+    box-shadow inset -7.5px 1px 0px #efefef
 .ghost 
   &.heart 
     &::after 
       content ""
-      width 175px
-      height 220px
+      width 87.5px
+      height 110px
       border-radius 100px 100px 0px 0px
       background #fdfeff
       position relative
       display inline-block
       position absolute
-      box-shadow inset -15px 1px 0px #efefef
+      box-shadow inset -7.5px 1px 0px #efefef
 .ghost 
   .face 
-    width 130px
-    height 130px
+    width 65px
+    height 65px
     background transparent
     position absolute
     margin -20% 10%
@@ -725,25 +724,25 @@ date: 2022-05-10 00:05:39
   .face 
     .eyes 
       opacity 0.5
-      width 15px
-      height 15px
+      width 7.5px
+      height 7.5px
       background #000
       border-radius 100%
       position relative
-      top 55px
-      left 3px
+      top 27.5px
+      left 1.5px
       animation blink 5s infinite
 .ghost 
   .face 
     .eyes 
       &::after 
         content ""
-        width 15px
-        height 15px
+        width 7.5px
+        height 7.5px
         position absolute
         background #000
         border-radius 100%
-        left 50px
+        left 25px
 .ghost 
   .face 
     .smile 
@@ -751,75 +750,75 @@ date: 2022-05-10 00:05:39
       opacity 0.5
       border-bottom-left-radius 50px
       border-bottom-right-radius 50px
-      width 10px
-      height 6px
+      width 5px
+      height 3px
       box-sizing initial
       background transparent
-      border 5px solid #000
-      left 25px
-      top 55px
+      border 2.5px solid #000
+      left 12.5px
+      top 27.5px
 .ghost 
   .face 
     .smile 
       &::before 
         background #fdfeff
-        width 30px
-        height 7px
+        width 15px
+        height 3.5px
         content ""
         position absolute
-        left -10px
+        left -5px
         top -5.5px
 .ghost 
   .face 
     .smile 
       &::after 
         background #fdfeff
-        width 30px
-        height 7px
+        width 15px
+        height 3.5px
         content ""
         position absolute
-        left -10px
-        top -5.5px
+        left -5px
+        top -2.75px
 .ghost 
   .face 
     .cheeks 
       position relative
-      width 12px
-      height 12px
+      width 6px
+      height 6px
       background #ff7e7e
       border-radius 100%
       opacity 0.5
-      top 43px
-      left -4px
+      top 21.5px
+      left -2px
 .ghost 
   .face 
     .cheeks 
       &::after 
         content ""
         position absolute
-        width 12px
-        height 12px
+        width 6px
+        height 6px
         background #ff7e7e
         border-radius 100%
-        left 67px
+        left 33.5px
 .ghost 
   .ghost-ul 
     display flex
   .ghost-list 
     position relative
     border-radius 200px
-    height 60px
+    height 30px
 .ghost 
   li 
     &:nth-child(odd) 
       background #fdfeff
-      width 30px
-      top 172px
+      width 15px
+      top 86px
       z-index -1
     &:nth-child(even) 
       background #48befe
-      width 7px
-      top 215px
+      width 3px
+      top 107.5px
 .ghost 
   li 
     &:nth-child(1) 
@@ -831,23 +830,24 @@ date: 2022-05-10 00:05:39
     &:nth-child(7) 
       animation ghostani 3s ease-out infinite 1.5s
     &:nth-child(9) 
-      box-shadow inset -15px 4px #efefef
+      box-shadow inset -7.5px 2px #efefef
       animation ghostani 3s ease-out infinite 2s
 .loading-heart 
   position absolute
   display inline-block
-  width 30px
-  height 30px
+  width 15px
+  height 15px
   background red
   left 45%
+  top -5%
   transform rotate(45deg)
   animation beat 0.7s linear infinite
 .loading-heart 
   &::before 
     position absolute
     content ""
-    width 30px
-    height 30px
+    width 15px
+    height 15px
     background red
     border-radius 100%
     top -50%
@@ -856,8 +856,8 @@ date: 2022-05-10 00:05:39
   &::after 
     position absolute
     content ""
-    width 30px
-    height 30px
+    width 15px
+    height 15px
     background red
     border-radius 100%
     top -50%
@@ -868,27 +868,27 @@ date: 2022-05-10 00:05:39
     left -50%
 .loading-heart 
   .loading-light 
-    width 5px
-    height 9px
+    width 2px
+    height 4px
     background white
     position absolute
     border-radius 200px
     z-index 3
-    left -11px
-    top 13.5px
+    left -5.5px
+    top 6.75px
     transform rotate(-10deg)
     animation lightshift 0.7s linear infinite
 .loading-heart 
   &::after 
     .loading-light 
-      width 5px
-      height 12px
+      width 2.5px
+      height 6px
       background white
       position absolute
       border-radius 200px
       z-index 3
-      left -11px
-      top 13px
+      left -5.5px
+      top 6.5px
       transform rotate(-10deg)
       animation lightshift 0.7s linear infinite
 .loading-heart 
@@ -897,12 +897,12 @@ date: 2022-05-10 00:05:39
       content ""
       position absolute
       z-index 3
-      width 5px
-      height 5px
+      width 2px
+      height 2px
       background white
       border-radius 200px
-      top -6px
-      left 1.5px
+      top -3px
+      left 0.75px
 .loading-heart 
   &::after 
     .loading-light 
@@ -910,40 +910,42 @@ date: 2022-05-10 00:05:39
         content ""
         position absolute
         z-index 3
-        width 5px
-        height 5px
+        width 2.5px
+        height 2.5px
         background white
         border-radius 200px
-        top -5px
-        left 1.5px
+        top -2.5px
+        left 0.75px
 
 .egg-shadow 
   position absolute
   opacity 0.2
-  width 180px
-  height 15px
+  width 90px
+  height 7.5px
   background #000
-  top 275px
+  top 137.5px
   border-radius 100%
+  // filter blur(2px)
 .ghost-shadow 
   position absolute
   opacity 0.2
-  width 180px
-  height 15px
+  width 90px
+  height 7.5px
   background #000
-  top 275px
+  top 137.5px
   border-radius 100%
+  // filter blur(2px)
 .egg-shadow#egg-shadow 
-    left -20px
-    animation shadow-ani 5s ease-out infinite
+    left -10px
+    animation shadow-ani 2.5s ease-out infinite
 .ghost-shadow#ghost-shadow 
-    left 195px !important
+    left 97.5px 
     transform-origin center
-    animation shadow-ani 2s ease-out infinite
+    animation shadow-ani 1s ease-out infinite
 @keyframes shadow-ani {
   50% {
-    width: 170px;
-    height: 10px;
+    width: 85px;
+    height: 5px;
   }
 }
 @keyframes blink  {
@@ -975,15 +977,15 @@ date: 2022-05-10 00:05:39
 @keyframes beat {
 	  20%,
 	40% {
-	    height: 40px;
-	    width: 40px;
+	    height: 20px;
+	    width: 20px;
 	  }
 	}
 @keyframes lightshift {
   20%,
   40% {
-    left: -15px;
-    top: 19px;
+    left: -7.5px;
+    top: 9.5px;
   }
 }
 @keyframes floating {
@@ -1000,33 +1002,248 @@ date: 2022-05-10 00:05:39
 
 @keyframes anim1 {
   50% {
-    top: 180px;
+    top: 90px;
   }
 }
 
 @keyframes anim2 {
   50% {
-    top: 178px;
+    top: 89px;
   }
 }
 
 @keyframes anim3 {
   50% {
-    top: 205px;
+    top: 102.5px;
   }
 }
 
 @keyframes anim4 {
   50% {
-    top: 205px;
+    top: 102.5px;
   }
 }
 
 @keyframes ghostani {
   50% {
-    top: 180px;
+    top: 90px;
   }
 }
+```
+* 代码提供了底部阴影模糊效果，默认关闭状态，如需要，将`.egg-shadow`和`.ghost-shadow`处的`filter`属性取消注释即可，位置在{% u 406和415 %}行。
+
+###发光小幽灵
+{% folding 发光小幽灵加载动画预览 %}
+![](https://s1.ax1x.com/2022/05/12/O0vRmT.gif)
+{% endfolding %}
+
+1. 修改 `[Blogroot]\themes\butterfly\layout\includes\loading\loading.pug`,复制以下代码替换源文件。
+```pug
+#loading-box
+  #ghost-container
+      .ghost
+        .body
+          .face
+            .eyes
+            .blush
+          .ghost-line
+          .ghost-bottom
+            .ghost-circle
+            .ghost-circle
+            .ghost-circle
+            .ghost-circle
+            .ghost-wave
+        .loading-shadow
+        .loading-glow
+```
+2. 修改 `[Blogroot]\themes\butterfly\source\css\_layout\loading.styl`,复制以下代码替换源文件。
+```stylus
+#loading-box
+  position fixed
+  z-index 10000
+  width 100vw
+  height 100vh
+  display flex
+  align-items center
+  justify-content center
+  background #00034b
+  // backdrop-filter blur(10px)
+  overflow hidden
+  text-align center
+  &.loaded
+   z-index -1000
+   #ghost-container 
+     display none
+
+#ghost-container 
+  width 80px
+  height 128px
+.ghost 
+  position relative
+  .body 
+    width 80px
+    height 124px
+    background #fff
+    border-radius 40px 40px 8px 8px
+    box-shadow inset -10px 0.2px 0 #dbdbdb
+    animation ghostFloat 2s linear infinite
+    .face 
+      position absolute
+      top 37px
+      left 24px
+      .eyes 
+        width 8.5px
+        height 11.5px
+        background #000449
+        border-radius 50%
+        animation eyesBlink 2s linear infinite
+        &::before 
+          position absolute
+          content ""
+          width inherit
+          height inherit
+          left 23.6px
+          background inherit
+          border-radius 50%
+      .blush 
+        position absolute
+        top 15.6px
+        right 6.4px
+        width 9px
+        height 9px
+        background #ffbeff
+        border-radius 50%
+        &::before 
+          position absolute
+          content ""
+          left 37px
+          width inherit
+          height inherit
+          background inherit
+          border-radius 50%
+    .ghost-line 
+      position relative
+      z-index 3
+      top 112px
+      width 70px
+      height 10px
+      background #fff
+    .ghost-bottom 
+      position absolute
+      top 114px
+      .ghost-circle 
+        position absolute
+        z-index 2
+        width 14px
+        height 14px
+        background #fff
+        border-radius 0 0 8px 8px
+        &:nth-child(1) 
+          left 0
+        &:nth-child(2) 
+          left 22px
+          border-radius 8px
+        &:nth-child(3) 
+          left 44px
+          border-radius 8px
+        &:nth-child(4) 
+          left 66px
+          box-shadow inset -10px 0.2px 0 #dbdbdb
+      .ghost-wave 
+        position relative
+        z-index 1
+        left 11.4px
+        width 13px
+        height 14px
+        background #c3c7cb
+        border-radius 8px
+        box-shadow inset 0 8px 0 #fff
+        &::before 
+          position absolute
+          content ""
+          left 22px
+          width inherit
+          height inherit
+          background inherit
+          border-radius 8px
+          box-shadow inherit
+        &::after 
+          position absolute
+          content ""
+          left 44px
+          width inherit
+          height inherit
+          background inherit
+          border-radius 8px
+          box-shadow inherit
+  .loading-shadow 
+    position absolute
+    z-index -2
+    top 146px
+    width 80px
+    height 8px
+    background #000031
+    border-radius 50%
+    filter blur(0.05rem)
+    animation shadowWidth 2s linear infinite
+  .loading-glow 
+    position absolute
+    z-index -1
+    top -5px
+    left -4px
+    width 88px
+    height 136px
+    background radial-gradient(circle at 50% 50%, #fff, #fff 40%, #fff 50%)
+    border-radius 40px 40px 8px 8px
+    opacity 0.37
+    filter blur(6px)
+    animation ghostFloat 2s linear infinite, glowBlur 2s linear infinite 
+@keyframes ghostFloat {
+	  0%,
+	100% {
+	    transform: translateY(0);
+	  }
+	  50% {
+	    transform: translateY(-1rem);
+	  }
+	}
+	
+@keyframes eyesBlink {
+	  0%,
+	30%,
+	38%,
+	100% {
+	    transform: scale(1);
+	  }
+	  34%,
+	36% {
+	    transform: scale(1, 0);
+	  }
+	}
+	
+@keyframes shadowWidth {
+	  0%,
+	100% {
+	    transform: scale(1);
+	  }
+	  50% {
+	    transform: scale(0.8, 1);
+	  }
+	}
+	
+@keyframes glowBlur {
+	  0%,
+	50%,
+	100% {
+	    opacity: 0.3625;
+	    filter: blur(1.125rem);
+	  }
+	  25%,
+	75% {
+	    opacity: 0.25;
+	    filter: blur(0.85rem);
+	  }
+	}
 ```
 
 ##后记
