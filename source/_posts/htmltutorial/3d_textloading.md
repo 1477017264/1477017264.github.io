@@ -32,7 +32,7 @@ date: 2022-05-12 22:38:39
 {% image https://s1.ax1x.com/2022/05/12/OBOs2t.gif, width=100% %}
 
 * 字体效果仅供参考，请以你网站的字体为准，也可自行修改。
-{% endfolding %}
+  {% endfolding %}
 
 1. 修改 `[Blogroot]\themes\butterfly\layout\includes\loading\loading.pug`,复制以下代码替换源文件。
 ```pug

@@ -33,6 +33,10 @@
       link: https://gallifrey.asia
       avatar: https://gallifrey.asia/images/shizi.png
       descr: 我的技术归档，我的生活，我的梦
+    - name: 小N同学
+      link: https://www.nesxc.com
+      avatar: https://public.cdn.nesxc.com/avatar.jpg
+      descr: 青石落晚巷 故人未还乡
 - class_name: 值得访问的网站
   link_list:
     - name: Bilibili
