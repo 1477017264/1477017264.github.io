@@ -1,1 +1,63 @@
-#aside-content{background:rgba(255,255,255,0)}#aside-content>.card-widget:first-child{background:rgba(255,255,255,.5);backdrop-filter:blur(10px)}#aside-content .card-widget{background:rgba(255,255,255,.5);backdrop-filter:blur(10px)}#recent-posts>.recent-post-item{background:rgba(255,255,255,.5);backdrop-filter:blur(10px)}.search-dialog{background:rgba(255,255,255,.4);backdrop-filter:blur(10px);border-radius:15px}#search-mask{background:rgba(255,255,255,0)}#sidebar #sidebar-menus.open{background:rgba(255,255,255,.5);backdrop-filter:blur(10px)}#sidebar #menu-mask{background:rgba(255,255,255,0)}#footer{background:0 0!important}#footer::before{background:0 0!important}#page-header.full_page{background:0 0!important}#page-header.full_page:before{background-color:transparent!important}[data-theme=dark] #footer::before{background:0 0!important}
+/*所有页面实现毛玻璃特效*/
+#aside-content{
+    background: rgba(255,255,255,0);
+}
+
+#aside-content > .card-widget:first-child {
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(10px);
+}
+
+#aside-content .card-widget {
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(10px);
+}
+
+#recent-posts > .recent-post-item {
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(10px);
+}
+
+/*搜索框美化*/
+.search-dialog {
+    background: rgba(255,255,255,0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+}
+
+#search-mask {
+    background: rgba(255,255,255,0);
+}
+
+/*手机端毛玻璃优化*/
+#sidebar #sidebar-menus.open {
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(10px);
+}
+
+#sidebar #menu-mask {
+    background: rgba(255,255,255,0);
+}
+
+/* 页脚透明 */
+#footer{
+    background: transparent!important;
+}
+/* 页脚黑色透明玻璃效果移除 */
+#footer::before{
+    background: transparent!important;
+}
+/* 头图透明 */
+#page-header.full_page{
+    background: transparent!important;
+}
+/*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
+#page-header.full_page:before {
+    background-color: transparent!important;
+}
+/*夜间模式伪类遮罩层透明*/
+[data-theme="dark"]
+#footer::before{
+    background: transparent!important;
+}
+

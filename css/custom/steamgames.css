@@ -1,1 +1,76 @@
-.steam-game-item{border-bottom:none!important}.steam-game-title a{color:rgba(0,0,0,.7)!important;padding:0!important;line-height:18px!important}.steam-game-title a:hover{border:none!important}.steam-game-link{display:none}.steam-game-picture img{border-radius:8px!important;border:none!important;box-shadow:0 0 5px 0 rgba(0,0,0,.3)}.steam-game-pagination a{color:rgba(255,255,255,.7)!important;background:rgba(255,184,184,.6)!important;backdrop-filter:blur(15px)!important;border-radius:6px}.steam-game-button::before{border:none!important}.steam-game-button::after{background:0 0;opacity:0;border-radius:6px}@media (max-width:400px){.steam-game-title{font-size:15px!important}.steam-game-picture{padding-left:5px;display:flex;justify-content:center;align-items:center}.steam-game-info{margin:5px 0!important;padding:0 0 0 198px!important;font-size:15px;display:flex;padding:85px 0 0 5px;align-items:flex-start;flex-direction:column}}@media (max-width:600px){.steam-game-picture{padding-left:5px;display:flex;justify-content:center;align-items:center}.steam-game-info{margin:10px 0!important;padding:0 0 0 200px!important;font-size:15px;display:flex;line-height:26px;align-items:flex-start;flex-direction:column}}[data-theme=dark] .steam-game-title a{color:rgba(255,255,255,.7)!important}[data-theme=dark] .steam-game-pagination a{background:rgba(0,0,0,.6)!important}
+.steam-game-item {
+  border-bottom: none !important;
+}
+.steam-game-title a {
+  color: rgba(0,0,0,0.7) !important;
+  padding: 0 !important;
+  line-height: 18px !important;
+}
+.steam-game-title a:hover {
+  border: none !important;
+}
+.steam-game-link {
+  display: none;
+}
+.steam-game-picture img {
+  border-radius: 8px !important;
+  border: none !important;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.3);
+}
+.steam-game-pagination a {
+  color: rgba(255,255,255,0.7) !important;
+  background: rgba(255,184,184,0.6) !important;
+  backdrop-filter: blur(15px) !important;
+  border-radius: 6px;
+}
+.steam-game-button::before {
+  border: none !important;
+}
+.steam-game-button::after {
+  background: transparent;
+  opacity: 0;
+  border-radius: 6px;
+}
+@media (max-width: 400px) {
+  .steam-game-title {
+    font-size: 15px !important;
+  }
+  .steam-game-picture {
+    padding-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .steam-game-info {
+    margin: 5px 0 !important;
+    padding: 0 0 0 198px !important;
+    font-size: 15px;
+    display: flex;
+    padding: 85px 0 0 5px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+@media (max-width: 600px) {
+  .steam-game-picture {
+    padding-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .steam-game-info {
+    margin: 10px 0 !important;
+    padding: 0 0 0 200px !important;
+    font-size: 15px;
+    display: flex;
+    line-height: 26px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+[data-theme='dark'] .steam-game-title a {
+  color: rgba(255,255,255,0.7) !important;
+}
+[data-theme='dark'] .steam-game-pagination a {
+  background: rgba(0,0,0,0.6) !important;
+}
