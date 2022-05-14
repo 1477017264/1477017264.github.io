@@ -464,10 +464,9 @@ google_adsense:
 
 site_verification:
    - name: google-site-verification
-     content: xfYu4MricMHfpQgAsWGZswzHBa-2dPv8twJJVV8fIG8
+     content: keagF0_nNkwvfKZDYKcNpUrjv7KmiwezbmmRdECkwXE
    - name: baidu-site-verification
      content: code-mRyq76rVmG
-
 # Beautify/Effect (美化/效果)
 # --------------------------------------
 
