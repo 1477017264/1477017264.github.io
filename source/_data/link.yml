@@ -37,6 +37,10 @@
       link: https://www.nesxc.com
       avatar: https://public.cdn.nesxc.com/avatar.jpg
       descr: 青石落晚巷 故人未还乡
+    - name: VAE+
+      link: https://www.zhangweicheng.xyz/
+      avatar: https://www.zhangweicheng.xyz/logo.jpg
+      descr: 人与人之间,最舒服的关系;是可以一直不说话,也可以随时说话。
 - class_name: 值得访问的网站
   link_list:
     - name: Bilibili

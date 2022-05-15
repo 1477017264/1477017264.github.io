@@ -5,7 +5,7 @@
 # Site
 title: DaDio
 subtitle: "欢迎访问DaDio的博客"
-description: "欢迎访问本站"
+description: "欢迎访问本站<br>中国 · 苏州"
 keywords: DaDio's Blog
 author: DaDio
 language: zh-CN
@@ -134,7 +134,7 @@ live2d:
     show: false
 
 githubcalendar:
-  enable: true
+  enable: false
   enable_page: /  # 表示只在根目录(首页)显示
   user: 1477017264	  # 替换成你 GitHub 的用户名
   layout_id: recent-posts

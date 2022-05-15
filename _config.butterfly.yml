@@ -4,12 +4,11 @@
 
 menu:
   主页: / || fas fa-home
-  归档: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
+  文章||fa-solid fa-book-journal-whills:
+    文章总览: /archives/ || fas fa-archive
+    所有标签: /tags/ || fas fa-tags
+    全部分类: /categories/ || fas fa-folder-open
   娱乐||fa-solid fa-mug-hot:
-    # Music: /music/ || fas fa-music
-    # Movie: /movies/ || fas fa-video
     相册图库: /gallery/ || fa-solid fa-film
     我的游戏: /steamgames/ || fa-brands fa-steam-symbol
     电影频道: /movies/ || fa-solid fa-video
