@@ -18,6 +18,8 @@ keywords:
 categories: 博客魔改记录
 abbrlink: 22512
 date: 2022-05-12 22:38:39
+swiper_index: 7
+description: Hexo博客添加自定义加载动画
 ---
 
 ##前言

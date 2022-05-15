@@ -1,4 +1,4 @@
-- class_name: 友情链接
+- class_name: 我的链接
   link_list:
     - name: 大调吖
       link: https://space.bilibili.com/54369666?spm_id_from=333.1007.0.0
@@ -41,17 +41,17 @@
       link: https://www.zhangweicheng.xyz/
       avatar: https://www.zhangweicheng.xyz/logo.jpg
       descr: 人与人之间,最舒服的关系;是可以一直不说话,也可以随时说话。
-- class_name: 值得访问的网站
-  link_list:
-    - name: Bilibili
-      link: https://www.bilibili.com/?spm_id_from=333.999.b_696e7465726e6174696f6e616c486561646572.1
-      avatar: https://img.88icon.com/upload/jpg/20210524/079ee72073488f25699e7da3d6aef8be_73267_800_800.jpg
-      descr: 不错的视频、学习网站
-    - name: CNU 视觉联盟
-      link: http://www.cnu.cc/
-      avatar: https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/8e/35/2e/8e352e0b-3adf-7a11-cdcd-0c87f058c49b/source/512x512bb.jpg
-      descr: 非常不错的摄影网站
-    - name: Pexels
-      link: https://www.pexels.com/zh-cn/
-      avatar: https://avatars3.githubusercontent.com/u/12876026
-      descr: 强大的无版权图片网站
+#- class_name: 值得访问的网站
+#  link_list:
+#    - name: Bilibili
+#      link: https://www.bilibili.com/?spm_id_from=333.999.b_696e7465726e6174696f6e616c486561646572.1
+#      avatar: https://img.88icon.com/upload/jpg/20210524/079ee72073488f25699e7da3d6aef8be_73267_800_800.jpg
+#      descr: 不错的视频、学习网站
+#    - name: CNU 视觉联盟
+#      link: http://www.cnu.cc/
+#      avatar: https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/8e/35/2e/8e352e0b-3adf-7a11-cdcd-0c87f058c49b/source/512x512bb.jpg
+#      descr: 非常不错的摄影网站
+#    - name: Pexels
+#      link: https://www.pexels.com/zh-cn/
+#      avatar: https://avatars3.githubusercontent.com/u/12876026
+#      descr: 强大的无版权图片网站

@@ -19,6 +19,8 @@ keywords:
 categories: 前端
 abbrlink: 22514
 date: 2022-05-14 20:00:39
+swiper_index: 8
+description: 简单的博客字体压缩方法
 ---
 
 ##前言
