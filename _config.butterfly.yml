@@ -12,6 +12,9 @@ menu:
     相册图库: /gallery/ || fa-solid fa-film
     我的游戏: /steamgames/ || fa-brands fa-steam-symbol
     电影频道: /movies/ || fa-solid fa-video
+#  整活||fa-brands fa-accessible-icon:
+#    音乐解锁: https://1477017264.github.io/unlock-music/ || fa-solid fa-music
+#    你被骗了: https://1477017264.github.io/rr_dadio/ || fa-solid fa-disease
   链接||fas fa-link:
     友情链接: /link/ || fa-solid fa-heart
     网站收录: /website/ || fa-solid fa-paper-plane

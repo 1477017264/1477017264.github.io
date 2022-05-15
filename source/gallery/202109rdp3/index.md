@@ -4,6 +4,7 @@ date: 2022-04-13 01:54:39
 keywords: [摄影,胶片,宝丽来,富士,落日，晚霞]
 type: gallery
 comments: false
+aside: false
 ---
 
 {% gallery %}
