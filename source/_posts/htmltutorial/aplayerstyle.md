@@ -17,7 +17,6 @@ categories: 博客魔改记录
 abbrlink: 22960
 date: 2022-04-21 20:48:39
 swiper_index: 2
-description: Hexo aplayer 吸底播放器样式魔改
 ---
 
 {% tip tips faa-horizontal animated %}此教程强制关闭了歌词和歌词按钮，需要歌词的请酌情修改。{% endtip %}
