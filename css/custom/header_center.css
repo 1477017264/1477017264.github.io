@@ -1,16 +1,1 @@
-#nav #search-button a {
-  display: inline;
-  padding: 0 0 0 1rem;
-  position: relative;
-  font-weight: bold;
-  font-size: 0.82em !important;
-  cursor: pointer;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.149);
-}
-#nav #navFn {
-  flex: 1;
-  text-align: end;
-}
-#nav #toggle-menu {
-  padding: 0.1rem 0 0 1rem;
-}
+#nav #search-button a{display:inline;padding:0 0 0 1rem;position:relative;font-weight:700;font-size:.82em!important;cursor:pointer;text-shadow:2px 2px 4px rgba(0,0,0,.149)}#nav #navFn{flex:1;text-align:end}#nav #toggle-menu{padding:.1rem 0 0 1rem}
