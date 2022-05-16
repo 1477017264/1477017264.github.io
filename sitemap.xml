@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.dadio.cc/gallery/iuhorizontal/index.html</loc>
+    
+    <lastmod>2022-05-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.dadio.cc/gallery/index.html</loc>
     
     <lastmod>2022-05-15</lastmod>
@@ -21,15 +30,6 @@
   
   <url>
     <loc>https://www.dadio.cc/gallery/202110rdp3/index.html</loc>
-    
-    <lastmod>2022-05-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.dadio.cc/gallery/iuhorizontal/index.html</loc>
     
     <lastmod>2022-05-15</lastmod>
     
@@ -256,7 +256,7 @@
 
   <url>
     <loc>https://www.dadio.cc/</loc>
-    <lastmod>2022-05-15</lastmod>
+    <lastmod>2022-05-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -264,70 +264,70 @@
   
   <url>
     <loc>https://www.dadio.cc/tags/Hexo/</loc>
-    <lastmod>2022-05-15</lastmod>
+    <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.dadio.cc/tags/Butterfly/</loc>
-    <lastmod>2022-05-15</lastmod>
+    <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.dadio.cc/tags/%E7%BD%91%E7%AB%99%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2022-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.dadio.cc/tags/%E9%BB%91%E8%83%B6/</loc>
-    <lastmod>2022-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.dadio.cc/tags/%E9%9F%B3%E4%B9%90/</loc>
-    <lastmod>2022-05-15</lastmod>
+    <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.dadio.cc/tags/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2022-05-15</lastmod>
+    <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.dadio.cc/tags/HTML/</loc>
-    <lastmod>2022-05-15</lastmod>
+    <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.dadio.cc/tags/%E5%8A%A0%E8%BD%BD%E5%8A%A8%E7%94%BB/</loc>
-    <lastmod>2022-05-15</lastmod>
+    <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.dadio.cc/tags/aplayer/</loc>
-    <lastmod>2022-05-15</lastmod>
+    <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.dadio.cc/tags/%E5%AD%97%E4%BD%93%E5%8E%8B%E7%BC%A9/</loc>
-    <lastmod>2022-05-15</lastmod>
+    <lastmod>2022-05-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.dadio.cc/tags/%E9%BB%91%E8%83%B6/</loc>
+    <lastmod>2022-05-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.dadio.cc/tags/%E9%9F%B3%E4%B9%90/</loc>
+    <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -336,28 +336,28 @@
   
   <url>
     <loc>https://www.dadio.cc/categories/%E5%8D%9A%E5%AE%A2%E9%AD%94%E6%94%B9%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2022-05-15</lastmod>
+    <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.dadio.cc/categories/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2022-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.dadio.cc/categories/%E9%BB%91%E8%83%B6/</loc>
-    <lastmod>2022-05-15</lastmod>
+    <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.dadio.cc/categories/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2022-05-15</lastmod>
+    <lastmod>2022-05-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.dadio.cc/categories/%E9%BB%91%E8%83%B6/</loc>
+    <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
