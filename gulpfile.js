@@ -5,6 +5,14 @@ var htmlmin = require('gulp-html-minifier-terser');
 var htmlclean = require('gulp-htmlclean');
 var fontmin = require('gulp-fontmin');
 // gulp-tester
+
+const replace = require('gulp-replace');
+gulp.task('templates', async() => {
+    gulp.src('public/**/*.*')
+        .pipe(replace('https://cdn.jsdelivr.net/', 'https://cdn1.tianli0.top/'))
+        .pipe(gulp.dest('public/')),  { overwrite: true };
+});
+
 var terser = require('gulp-terser');
 // 压缩js
 gulp.task('compress', () =>
@@ -66,5 +74,5 @@ gulp.task('mini-font', (cb) => {
 });
 // 运行gulp命令时依次执行以下任务
 gulp.task('default', gulp.parallel(
-    'compress', 'minify-css', 'minify-html','mini-font'
+    'compress', 'minify-css', 'minify-html','mini-font','templates'
 ))

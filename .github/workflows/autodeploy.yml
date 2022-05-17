@@ -39,12 +39,15 @@ jobs:
       - name: 安装依赖
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
+          npm install gulp-cli -g #全局安装gulp
           npm install --save
+          npm i gulp-replace --save
 
       - name: 生成静态文件
         run: |
           hexo clean
           hexo generate
+          gulp
 
       - name: 部署到github iuhorizontal
         run: |
