@@ -12,6 +12,7 @@ aside: false
 {% galleryGroup 'IU·竖屏壁纸' 'IU竖屏美图' '/gallery/iuvertical' https://s1.ax1x.com/2022/05/03/OA8DaV.jpg %}
 {% galleryGroup 'IU·横屏壁纸' 'IU横屏美图' '/gallery/iuhorizontal' https://s1.ax1x.com/2022/05/03/OA8r5T.jpg %}
 {% galleryGroup 'IU·Ins' 'IU Instagram美图' '/gallery/iuinstagram' https://s1.ax1x.com/2022/05/18/O7arrT.jpg %}
+{% galleryGroup '2021·Lomo' '拍立得摄影记录' '/gallery/2021lomo' https://s1.ax1x.com/2022/05/19/OqYmM6.jpg %}
 {% galleryGroup '2021·黑白' '胶片摄影记录' '/gallery/2021blackwhite' https://s1.ax1x.com/2022/05/18/O7UjDU.jpg %}
 {% galleryGroup '2021·九月' '胶片摄影记录' '/gallery/202109rdp3' https://s1.ax1x.com/2022/05/03/OA1piF.jpg %}
 {% galleryGroup '2021·十月' '胶片摄影记录' '/gallery/202110rdp3' https://s1.ax1x.com/2022/05/03/OA1CRJ.jpg %}
