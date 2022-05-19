@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.dadio.cc/gallery/iuvertical/index.html</loc>
+    
+    <lastmod>2022-05-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.dadio.cc/gallery/index.html</loc>
     
     <lastmod>2022-05-19</lastmod>
@@ -11,7 +20,16 @@
   </url>
   
   <url>
-    <loc>https://www.dadio.cc/gallery/iuvertical/index.html</loc>
+    <loc>https://www.dadio.cc/gallery/iuinstagram/index.html</loc>
+    
+    <lastmod>2022-05-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.dadio.cc/gallery/2021blackwhite/index.html</loc>
     
     <lastmod>2022-05-19</lastmod>
     
@@ -277,13 +295,6 @@
   </url>
   
   <url>
-    <loc>https://www.dadio.cc/tags/%E7%BD%91%E7%AB%99%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2022-05-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.dadio.cc/tags/%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2022-05-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -299,6 +310,13 @@
   
   <url>
     <loc>https://www.dadio.cc/tags/%E5%8A%A0%E8%BD%BD%E5%8A%A8%E7%94%BB/</loc>
+    <lastmod>2022-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.dadio.cc/tags/%E7%BD%91%E7%AB%99%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2022-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
