@@ -50,7 +50,5 @@ aside: false
 ![](https://s1.ax1x.com/2022/05/16/OhBNWV.jpg)
 ![](https://s1.ax1x.com/2022/05/16/OhBtJ0.jpg)
 ![](https://s1.ax1x.com/2022/05/16/OhBYiq.jpg)
-![](https://s1.ax1x.com/2022/05/18/O7dCdg.jpg)
-![](https://s1.ax1x.com/2022/05/18/O7d9eS.jpg)
-![](https://s1.ax1x.com/2022/05/18/O7dSL8.jpg)
+
 {% endgallery %}
