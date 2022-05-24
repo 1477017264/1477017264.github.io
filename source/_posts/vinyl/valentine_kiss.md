@@ -1,20 +1,20 @@
 ---
-title: 『黑胶内录试听』模板
-cover: 'https://s1.ax1x.com/2022/05/02/OPAXi8.jpg'
+title: 『黑胶内录试听』バレンタイン・キッス - 国生さゆり
+cover: 'https://s1.ax1x.com/2022/05/25/XiRcrD.jpg'
 tags:
   - 黑胶
   - 音乐
 keywords: 黑胶
 categories: 黑胶
-abbrlink: 22156
-date: 2022-01-23 00:24:39
+abbrlink: 22525
+date: 2022-05-25 00:32:39
 ---
 
 <div style="position: relative; width: 100%; margin-bottom: 20px">
     <video playsinline="" controls="" preload="metadata" 
-        src="https://video-direct-link.vercel.app/bili.mp4?aid=510135837&bvid=BV1qu411v7MK&cid=561532853" 
+        src="https://video-direct-link.vercel.app/bili.mp4?aid=639325786&bvid=BV1bY4y167ru&cid=726265455" 
         style="display: block; width: 100%;border-radius: 8px;"
-        poster="https://s1.ax1x.com/2022/05/02/OPkH4U.jpg">
+        poster="https://s1.ax1x.com/2022/05/25/XiR6KO.jpg">
     </video>
 </div>
 
@@ -34,6 +34,10 @@ date: 2022-01-23 00:24:39
 .table-mess thead{
     background: transparent!important;
 }
+.table-wrap {
+    overflow-x: hidden!important;
+    margin: 0 0 20px;
+}
 </style>
 <div class="vinyl-box">
     <div class="vinyl-main">
@@ -51,11 +55,11 @@ date: 2022-01-23 00:24:39
                 <thead>
                 <tr>
                     <td>标签：</td>
-                    <td>CBS/Sony – 07SH 1026</td>
+                    <td>CBS/Sony – 28AH-2068</td>
                 </tr>
                 <tr>
                     <td>格式：</td>
-                    <td>Vinyl, 7", 45 RPM, Single</td>
+                    <td>Vinyl, LP, Album</td>
                 </tr>
                 <tr>
                     <td>国家：</td>
@@ -63,41 +67,41 @@ date: 2022-01-23 00:24:39
                 </tr>
                 <tr>
                     <td>发行日期：</td>
-                    <td>Jul 21, 1981</td>
+                    <td>Jul 16, 1986</td>
                 </tr>
                 <tr>
                     <td>类型：</td>
-                    <td>Pop, Stage & Screen</td>
+                    <td>Rock, Pop</td>
                 </tr>
                 <tr>
                     <td>风格：</td>
-                    <td>Kayōkyoku, Theme</td>
+                    <td>Kayōkyoku</td>
                 </tr>
                 </thead>
             </table>
         </div>
         <div class="vinyl-list">
-            {% note orange 'fas fa-fan' disabled %}歌曲列表{% endnote %}
+            {% note orange 'fas fa-fan' disabled %}歌曲节选{% endnote %}
             <table class="table-list" border="1">
                 <tr>
-                    <td>白いパラソル</td>
-                    <td>3:29</td>
+                    <td>砂まじりのトラベリンバス</td>
+                    <td>4:00</td>
                 </tr>
                 <tr>
-                    <td>花一色～野菊のささやき～</td>
-                    <td>4:19</td>
+                    <td>恋はRing・Ring・Ring</td>
+                    <td>3:05</td>
                 </tr>
                 <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td>秋のシャツを着て</td>
+                    <td>5:06</td>
                 </tr>
                 <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td>バレンタイン・キッス</td>
+                    <td>3:31</td>
                 </tr>
                 <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td>書きかけのダイアリー</td>
+                    <td>4:02</td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
@@ -127,7 +131,7 @@ date: 2022-01-23 00:24:39
         box-shadow: rgba(0,0,0,0.5) 0px 0px 5px 2px;
 }
 .vinyl-cover{
-    background: url(https://s1.ax1x.com/2022/05/02/OPEFoV.jpg);
+    background: url(https://s1.ax1x.com/2022/05/25/XiRr26.jpg);
     width: 210px;
     height: 210px;
     position: absolute;
@@ -156,7 +160,7 @@ date: 2022-01-23 00:24:39
     border-radius: 100%;
     background-color: red;
     /*看不出旋转效果，所以使用图片*/
-    background: url("https://s1.ax1x.com/2022/05/02/OPE9Ln.jpg");
+    background: url("https://s1.ax1x.com/2022/05/25/XiRsxK.jpg");
     background-size: cover;
 }
 /*白色圆心，不需要可以直接删除，或者把背景色删掉或改为透明*/
@@ -165,7 +169,7 @@ date: 2022-01-23 00:24:39
     height: 42px;
     margin: 0 auto;
     border-radius: 100%;
-    background: rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0);
 }
 @keyframes circle{
     0%{

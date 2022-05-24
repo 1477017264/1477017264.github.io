@@ -35,6 +35,10 @@ swiper_index: 1
 .table-mess thead{
     background: transparent!important;
 }
+.table-wrap {
+    overflow-x: hidden!important;
+    margin: 0 0 20px;
+}
 </style>
 <div class="vinyl-box">
     <div class="vinyl-main">
