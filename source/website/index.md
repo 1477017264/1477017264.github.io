@@ -76,6 +76,6 @@ aside: false
 
 ## <i class="fa-brands fa-accessible-icon"></i> 我的整活
 {% sitegroup %}
-{% site 音乐解锁, url=https://1477017264.github.io/unlock-music/, screenshot=https://s1.ax1x.com/2022/05/25/XkGCQ0.jpg, avatar=https://s1.ax1x.com/2022/05/25/Xk8Di9.png, description=解锁付费音乐限制 %}
-{% site 站长推荐, url=https://1477017264.github.io/rr_dadio/, screenshot=https://s1.ax1x.com/2022/05/25/XkGPyV.jpg, avatar=https://s1.ax1x.com/2022/05/25/Xk8E8I.png, description=进来受骗 %}
+{% site 音乐解锁, url=https://unlock-music-ebon.vercel.app/, screenshot=https://s1.ax1x.com/2022/05/25/XkGCQ0.jpg, avatar=https://s1.ax1x.com/2022/05/25/Xk8Di9.png, description=解锁付费音乐限制 %}
+{% site 站长推荐, url=https://rr-dadio.vercel.app/, screenshot=https://s1.ax1x.com/2022/05/25/XkGPyV.jpg, avatar=https://s1.ax1x.com/2022/05/25/Xk8E8I.png, description=进来受骗 %}
 {% endsitegroup %}
