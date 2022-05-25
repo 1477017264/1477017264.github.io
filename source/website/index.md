@@ -1,9 +1,12 @@
 ---
 title: 网站收录
 date: 2022-04-16 14:43:22
-comments: false
+aside: false
 ---
-{% tip warning faa-horizontal animated %}温馨提示：由于使用的是外链，可能会有广告，请勿相信任何广告！{% endtip %}
+{% tip warning faa-horizontal animated %}
+由于使用的是外链，可能会有广告，请勿相信任何广告！
+如果有好的网站推荐，欢迎底部留言，我会尽快收录！
+{% endtip %}
 
 ## <i class="fas fa-chess"></i> 摸鱼网站合集
 {% sitegroup %}
@@ -71,9 +74,8 @@ comments: false
 {% site Wallpaperscraft, url=https://wallpaperscraft.com/, screenshot=https://s1.ax1x.com/2022/05/04/OZ9aX4.jpg, avatar=https://img.gejiba.com/images/cb53abb7b127c2cc408c080a420983ee.png, description=参数信息详细的壁纸站点 %}
 {% endsitegroup %}
 
-## <i class="fas fa-fill"></i> 好用的配色网站
+## <i class="fa-brands fa-accessible-icon"></i> 我的整活
 {% sitegroup %}
-{% site uigradients, url=https://uigradients.com/#SolidVault, screenshot=https://s1.ax1x.com/2022/05/04/OZCCCV.jpg, avatar=https://uigradients.com/static/images/favicon-32x32.png, description=好看的渐变色 %}
-{% site colorhunt, url=https://colorhunt.co/, screenshot=https://s1.ax1x.com/2022/05/04/OZCp40.jpg, avatar=https://colorhunt.co/img/colorhunt-favicon.svg?2, description=很不错的配色网站 %}
-{% site coolors, url=https://coolors.co/palettes/trending, screenshot=https://s1.ax1x.com/2022/05/04/OZCSNq.jpg, avatar=https://cdn.jsdelivr.net/gh/1477017264/PicGoGallery/img/coolorfavicon.png, description=不错的配色网站 %}
+{% site 音乐解锁, url=https://1477017264.github.io/unlock-music/, screenshot=https://s1.ax1x.com/2022/05/25/XkGCQ0.jpg, avatar=https://s1.ax1x.com/2022/05/25/Xk8Di9.png, description=解锁付费音乐限制 %}
+{% site 站长推荐, url=https://1477017264.github.io/rr_dadio/, screenshot=https://s1.ax1x.com/2022/05/25/XkGPyV.jpg, avatar=https://s1.ax1x.com/2022/05/25/Xk8E8I.png, description=进来受骗 %}
 {% endsitegroup %}
