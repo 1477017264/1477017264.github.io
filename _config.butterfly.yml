@@ -356,8 +356,8 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: 'dadio-4gqe44lrd4788b52'
-  region:
+  envId: 'https://twikoo-1477017264.vercel.app/'  #'dadio-4gqe44lrd4788b52'
+  region: 'AWS N. Virginia (us-east-1)'
   visitor: true
   option:
 
