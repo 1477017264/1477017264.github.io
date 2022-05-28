@@ -1,1 +1,101 @@
-#aside-content{background:rgba(255,255,255,0)}#aside-content>.card-widget:first-child{background:rgba(255,255,255,.4);backdrop-filter:blur(20px)}#aside-content .card-widget{background:rgba(255,255,255,.4);backdrop-filter:blur(20px)}#recent-posts>.recent-post-item{background:rgba(255,255,255,.4);backdrop-filter:blur(20px)}#aside-content .card-archives ul.card-archive-list>.card-archive-list-item a:hover,#aside-content .card-categories ul.card-category-list>.card-category-list-item a:hover{background-color:rgba(255,255,255,.4)}.categoryBar{background:rgba(255,255,255,.4);backdrop-filter:blur(20px)}#aside-content #card-toc .toc-content .toc-link.active{background:rgba(255,184,184,.4);font-size:120%}#aside-content #card-toc .toc-percentage{color:rgba(0,0,0,.5)}#aside-content #card-toc .toc-content .toc-link:hover{color:rgba(0,0,0,.8)}#aside-content #card-toc .toc-content .toc-link.active:hover{color:#fff}.search-dialog{background:rgba(255,255,255,.4);backdrop-filter:blur(20px);border-radius:15px}#search-mask{background:rgba(255,255,255,0)}#sidebar #sidebar-menus.open{background:rgba(255,255,255,.4);backdrop-filter:blur(20px)}#sidebar #menu-mask{background:rgba(255,255,255,0)}#footer{background:0 0!important}#footer::before{background:0 0!important}#page-header.full_page{background:0 0!important}#page-header.full_page:before{background-color:transparent!important}[data-theme=dark] #aside-content #card-toc .toc-content .toc-link.active{background:rgba(255,255,255,.1)}[data-theme=dark] #aside-content #card-toc .toc-percentage{color:rgba(255,255,255,.5)}[data-theme=dark] #aside-content #card-toc .toc-content .toc-link:hover{color:rgba(255,255,255,.8)}[data-theme=dark] #aside-content #card-toc .toc-content .toc-link.active:hover{color:#fff}[data-theme=dark] #footer::before{background:0 0!important}
+#aside-content {
+    background: rgba(255, 255, 255, 0)
+}
+
+#aside-content>.card-widget:first-child {
+    background: rgba(255, 255, 255, .4);
+    backdrop-filter: blur(20px)
+}
+
+#aside-content .card-widget {
+    background: rgba(255, 255, 255, .4);
+    backdrop-filter: blur(20px)
+}
+
+#recent-posts>.recent-post-item {
+    background: rgba(255, 255, 255, .4);
+    backdrop-filter: blur(20px)
+}
+
+#aside-content .card-archives ul.card-archive-list>.card-archive-list-item a:hover,
+#aside-content .card-categories ul.card-category-list>.card-category-list-item a:hover {
+    background-color: rgba(255, 255, 255, .4)
+}
+
+.categoryBar {
+    background: rgba(255, 255, 255, .4);
+    backdrop-filter: blur(20px)
+}
+
+#aside-content #card-toc .toc-content .toc-link.active {
+    background: rgba(255, 184, 184, .4);
+    font-size: 120%;
+    /*font-weight: bold;*/
+}
+
+#aside-content #card-toc .toc-percentage{
+    color: rgba(0,0,0,0.5);
+}
+
+#aside-content #card-toc .toc-content .toc-link:hover {
+    color: rgba(0, 0, 0, .8)
+}
+
+#aside-content #card-toc .toc-content .toc-link.active:hover{
+    color: rgba(255, 255, 255, 1)
+}
+
+.search-dialog {
+    background: rgba(255, 255, 255, .4);
+    backdrop-filter: blur(20px);
+    border-radius: 15px
+}
+
+#search-mask {
+    background: rgba(255, 255, 255, 0)
+}
+
+#sidebar #sidebar-menus.open {
+    background: rgba(255, 255, 255, .4);
+    backdrop-filter: blur(20px)
+}
+
+#sidebar #menu-mask {
+    background: rgba(255, 255, 255, 0)
+}
+
+#footer {
+    background: 0 0 !important
+}
+
+#footer::before {
+    background: 0 0 !important
+}
+
+#page-header.full_page {
+    background: 0 0 !important
+}
+
+#page-header.full_page:before {
+    background-color: transparent !important
+}
+
+[data-theme=dark] #aside-content #card-toc .toc-content .toc-link.active {
+    background: rgba(255,255,255,0.1);
+}
+
+[data-theme=dark] #aside-content #card-toc .toc-percentage{
+    color: rgba(255,255,255,0.5);
+}
+
+[data-theme=dark] #aside-content #card-toc .toc-content .toc-link:hover {
+    color: rgba(255, 255, 255, .8)
+}
+
+[data-theme=dark] #aside-content #card-toc .toc-content .toc-link.active:hover{
+    color: rgba(255, 255, 255, 1)
+}
+
+[data-theme=dark] #footer::before {
+    background: 0 0 !important
+}
