@@ -898,7 +898,7 @@ inject:
     - <link rel="preconnect" href="https://fonts.gstatic.com">
     - <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
     - <link rel="stylesheet" href="/css/custom/twikoo_beautify.css"  media="defer" onload="this.media='all'">
-    - <link rel="stylesheet" href="/css/custom/fixed_comment.css"  media="defer" onload="this.media='all'">
+    # - <link rel="stylesheet" href="/css/custom/fixed_comment.css"  media="defer" onload="this.media='all'">
     - <link rel="stylesheet" href="/css/custom/frosted_glass.css">
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HCLonely/images@master/others/heartbeat.min.css">
     - <link rel="stylesheet" href="//at.alicdn.com/t/font_3334078_c14zfibvbj8.css"  media="defer" onload="this.media='all'">
@@ -909,7 +909,7 @@ inject:
 
   bottom:
     - <div class="aplayer no-destroy" data-id="8429082619" data-server="tencent" data-type="playlist" data-fixed="true" data-autoplay="false" > </div>
-    - <script data-pjax defer src="/js/custom/fixed_comment.js"></script>
+    # - <script data-pjax defer src="/js/custom/fixed_comment.js"></script>
     - <script async src="/js/custom/diytitle.js"></script>
     - <script data-pjax defer src="/js/custom/fixed_card_widget.js"></script>
     - <script async src="//at.alicdn.com/t/font_2264842_3izu8i5eoc2.js"></script>
