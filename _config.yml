@@ -62,7 +62,7 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ""
-  per_page: 8
+  per_page: 10
   order_by: -date
 
 # Category & Tag
@@ -203,3 +203,13 @@ baidu_url_submit:
   host: https://www.dadio.cc # 百度站长平台中注册的域名
   token: 1w9TmAihdbWDEhT8 # 秘钥，百度站长平台 > 推送接口 > 接口调用地址中token字段
   path: baidu_urls.txt # 文本文档的地址， 新链接会保存在此文本文档里，不用改
+
+history_calendar:
+  priority: 0
+  enable: true
+  enable_page: /
+  layout:
+    type: class
+    name: sticky_layout
+    index: 0
+  temple_html: '<div class="card-widget card-history"><div class="card-content"><div class="item-headline"><i class="fas fa-clock fa-spin"></i><span>那年今日</span></div><div id="history-baidu" style="height: 100px;overflow: hidden"><div class="history_swiper-container" id="history-container" style="width: 100%;height: 100%"><div class="swiper-wrapper" id="history_container_wrapper" style="height:20px"></div></div></div></div>'

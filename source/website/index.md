@@ -78,5 +78,5 @@ aside: false
 {% sitegroup %}
 {% site 音乐解锁, url=https://unlock-music-ebon.vercel.app/, screenshot=https://s1.ax1x.com/2022/05/25/XkGCQ0.jpg, avatar=https://s1.ax1x.com/2022/05/25/Xk8Di9.png, description=解锁付费音乐限制 %}
 {% site 站长推荐, url=https://rr-dadio.vercel.app/, screenshot=https://s1.ax1x.com/2022/05/25/XkGPyV.jpg, avatar=https://s1.ax1x.com/2022/05/25/Xk8E8I.png, description=进来受骗 %}
-{% site 二维码生成, url=https://dadio-image-qr-code.vercel.app/, screenshot=https://s1.ax1x.com/2022/05/25/XAw44f.jpg, avatar=https://s1.ax1x.com/2022/05/25/XAwB4K.png, description=在线带图片背景二维码生成 %}
+{% site 二维码生成, url=https://dadio-image-qr-code.vercel.app/, screenshot=https://s1.ax1x.com/2022/05/29/XM2kgU.jpg, avatar=https://s1.ax1x.com/2022/05/25/XAwB4K.png, description=在线带图片背景二维码生成 %}
 {% endsitegroup %}

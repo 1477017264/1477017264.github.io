@@ -741,7 +741,7 @@ runtimeshow:
 
 # Aside widget - Newest Comments
 newest_comments:
-  enable: false
+  enable: true
   sort_order: # Don't modify the setting unless you know how it works
   limit: 6
   storage: 10 # unit: mins, save data to localStorage
@@ -1021,11 +1021,6 @@ fixed_card_widget:
       icon: fas fa-address-book #图标
       title: 用户信息 #悬停显示提示
     - type: class
-      name: card-hitokoto
-      index: 0
-      icon: fas fa-quote-left
-      title: 一言
-    - type: class
       name: card-recent-post
       index: 0
       icon: fas fa-history
@@ -1045,6 +1040,11 @@ fixed_card_widget:
       index: 0
       icon: fas fa-archive
       title: 归档
+    - type: id
+      name: card-newest-comments
+      index: 0
+      icon: fas fa-comment-dots
+      title: 最新评论
     - type: class
       name: card-ip
       index: 0
@@ -1115,13 +1115,13 @@ categoryBar:
   column: odd # odd：3列 | even：4列
   row: 1 #显示行数，默认两行，超过行数切换为滚动显示
   message:
-    - descr: 博客魔改记录
-      cover: https://s1.ax1x.com/2022/05/06/OuFS8s.jpg
     - descr: 网站测试用
-      cover: https://s1.ax1x.com/2022/05/06/OuizCj.jpg
-    - descr: 一些前端的东西
-      cover: https://s1.ax1x.com/2022/05/15/ORWWdg.jpg
+      cover: https://s1.ax1x.com/2022/05/06/OuFS8s.jpg
     - descr: 我收藏的黑胶
+      cover: https://s1.ax1x.com/2022/05/06/OuizCj.jpg
+    - descr: 博客魔改记录
+      cover: https://s1.ax1x.com/2022/05/15/ORWWdg.jpg
+    - descr: 一些前端的东西
       cover: https://s1.ax1x.com/2022/05/24/XiGBOU.jpg
   custom_css: './css/custom/categorybar.css'
 
@@ -1131,7 +1131,7 @@ swiper:
   enable: true # 开关
   priority: 5 #过滤器优先权
   enable_page: / # 应用页面
-  timemode: updated #date/updated
+  timemode: date #date/updated
   layout: # 挂载容器类型
     type: id
     name: recent-posts
