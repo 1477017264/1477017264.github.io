@@ -16,10 +16,13 @@ swiper_index: 8
 {% folding 时间线 %}
 
 {% timeline 唱片收录 · 持续更新 %}
+<!-- timeline 2022.5.30 -->
+{% checkbox plus blue checked, 新增 Various - Flashdance · 《闪电舞》电影原声大碟  %}
+<!-- endtimeline -->
+
 <!-- timeline 2022.5.28 -->
 {% checkbox green checked, 文档创建，收录截止2022.5.28的唱片 %}
 <!-- endtimeline -->
-
 {% endtimeline %}
 
 {% endfolding %}
@@ -49,6 +52,7 @@ swiper_index: 8
 ![松田聖子 - 風立ちぬ 7"](https://s1.ax1x.com/2022/05/28/XK0DSA.jpg)
 ![松田聖子 - 白いパラソル 7"](https://s1.ax1x.com/2022/05/28/XK0rQI.jpg)
 ![松田聖子 - Rock'n Rouge 7"](https://s1.ax1x.com/2022/05/28/XK0WFg.jpg)
+![Various - Flashdance (Original Soundtrack From The Motion Picture) ](https://s1.ax1x.com/2022/05/31/X3Ngdf.jpg)
 {% endgallery %}
 
 ##2010s
