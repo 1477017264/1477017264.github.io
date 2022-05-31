@@ -392,7 +392,7 @@ chatra:
 # https://www.tidio.com/
 tidio:
   enable: false
-  public_key: y80levumavrrspbkqlb9i1vtgaskwdqb
+  public_key: # y80levumavrrspbkqlb9i1vtgaskwdqb
 
 # daovoice
 # http://daovoice.io/
