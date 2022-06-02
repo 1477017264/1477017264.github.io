@@ -187,10 +187,9 @@ date: 2022-04-08 03:03:39
     padding: 5px;
     margin: 20px auto 0;
     height: 100%;
-    background: rgba(255,255,255,0.1);
-    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0);
     transition: all 0.6s;
-    box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 6px rgba(0,0,0,0.2);
 }
 .vinyl-main{
     width:260px;
@@ -225,5 +224,8 @@ date: 2022-04-08 03:03:39
     padding: 20px;
     border-radius: 8px;
     transition: 0.6s ease-in-out;
+}
+[data-theme=dark] .vinyl-box{
+    box-shadow: 0px 0px 6px rgba(255,255,255,0.2);
 }
 </style>

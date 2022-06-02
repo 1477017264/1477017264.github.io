@@ -1085,6 +1085,12 @@ wowjs:
       delay: 0s #选填项，动画开始的延迟时间，单位可以是ms也可以是s。例如3s，700ms。
       offset: 50 #选填项，开始动画的距离（相对浏览器底部）
       iteration: 1 #选填项，动画重复的次数
+    - class: card-history
+      style: animate__fadeInUp
+      duration: 0.5s
+      delay: 0s
+      offset: 50
+      iteration: 1
     - class: site-card
       style: animate__fadeInUp
       duration: 0.5s #选填项，动画持续时间，单位可以是ms也可以是s。例如3s，700ms。
@@ -1106,7 +1112,7 @@ wow_init_js: https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js
 # see https://akilar.top/posts/a9131002/
 categoryBar:
   enable: true # 开关
-  priority: 5 #过滤器优先权
+  priority: 3 #过滤器优先权
   enable_page: / # 应用页面
   layout: # 挂载容器类型
     type: id
@@ -1118,11 +1124,11 @@ categoryBar:
     - descr: 网站测试用
       cover: https://s1.ax1x.com/2022/05/06/OuFS8s.jpg
     - descr: 我收藏的黑胶
-      cover: https://s1.ax1x.com/2022/05/06/OuizCj.jpg
+      cover: https://s1.ax1x.com/2022/05/15/ORWrRI.jpg
     - descr: 博客魔改记录
       cover: https://s1.ax1x.com/2022/05/15/ORWWdg.jpg
     - descr: 一些前端的东西
-      cover: https://s1.ax1x.com/2022/05/24/XiGBOU.jpg
+      cover: https://s1.ax1x.com/2022/05/06/OuizCj.jpg
   custom_css: './css/custom/categorybar.css'
 
 # hexo-butterfly-swiper

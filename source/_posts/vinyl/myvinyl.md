@@ -8,7 +8,7 @@ keywords: 黑胶
 categories: 黑胶
 abbrlink: 22528
 date: 2022-05-28 03:03:39
-swiper_index: 8
+swiper_index: 7
 ---
 
 {% note 'fa-solid fa-record-vinyl' flat %}想了很久排版，最终决定使用年代递进的顺序（已唱片实际发行年份为准）。{% endnote %}

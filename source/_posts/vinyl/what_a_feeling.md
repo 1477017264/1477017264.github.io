@@ -1,20 +1,21 @@
 ---
-title: 『黑胶内录试听』白いパラソル - 松田聖子
-cover: 'https://s1.ax1x.com/2022/05/02/OPAXi8.jpg'
+title: 『黑胶内录试听』What A Feeling - Irene Cara
+cover: 'https://s1.ax1x.com/2022/06/02/XNAUHJ.jpg'
 tags:
   - 黑胶
   - 音乐
 keywords: 黑胶
 categories: 黑胶
-abbrlink: 46302
-date: 2022-04-23 00:34:39 
+abbrlink: 22602
+date: 2022-06-02 19:42:39
+swiper_index: 8
 ---
 
 <div style="position: relative; width: 100%; margin-bottom: 20px">
     <video playsinline="" controls="" preload="metadata" 
-        src="https://video-direct-link.vercel.app/bili.mp4?aid=510135837&bvid=BV1qu411v7MK&cid=561532853" 
+        src="https://video-direct-link.vercel.app/bili.mp4?aid=897012791&bvid=BV1UA4y1Z79Z&cid=735680628" 
         style="display: block; width: 100%;border-radius: 8px;"
-        poster="https://s1.ax1x.com/2022/05/02/OPkH4U.jpg">
+        poster="https://s1.ax1x.com/2022/06/02/XNANB4.jpg">
     </video>
 </div>
 
@@ -55,11 +56,11 @@ date: 2022-04-23 00:34:39
                 <thead>
                 <tr>
                     <td>标签：</td>
-                    <td>CBS/Sony – 07SH 1026</td>
+                    <td>Polystar - 25S-164</td>
                 </tr>
                 <tr>
                     <td>格式：</td>
-                    <td>Vinyl, 7", 45 RPM, Single</td>
+                    <td>Vinyl, LP, Album</td>
                 </tr>
                 <tr>
                     <td>国家：</td>
@@ -67,45 +68,45 @@ date: 2022-04-23 00:34:39
                 </tr>
                 <tr>
                     <td>发行日期：</td>
-                    <td>Jul 21, 1981</td>
+                    <td>1983</td>
                 </tr>
                 <tr>
                     <td>类型：</td>
-                    <td>Pop, Stage & Screen</td>
+                    <td>Electronic, Stage & Screen</td>
                 </tr>
                 <tr>
                     <td>风格：</td>
-                    <td>Kayōkyoku, Theme</td>
+                    <td>Synth-pop</td>
                 </tr>
                 </thead>
             </table>
         </div>
         <div class="vinyl-list">
-            {% note orange 'fas fa-fan' disabled %}歌曲列表{% endnote %}
+            {% note orange 'fas fa-fan' disabled %}歌曲节选{% endnote %}
             <table class="table-list" border="1">
                 <tr>
-                    <td>白いパラソル</td>
-                    <td>3:29</td>
+                    <td>Flashdance... What A Feeling</td>
+                    <td>3:55</td>
                 </tr>
                 <tr>
-                    <td>花一色～野菊のささやき～</td>
-                    <td>4:19</td>
+                    <td>He's A Dream</td>
+                    <td>3:28</td>
                 </tr>
                 <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td>Love Theme From Flashdance</td>
+                    <td>3:15</td>
                 </tr>
                 <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td>Manhunt</td>
+                    <td>2:36</td>
                 </tr>
                 <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td>Lady, Lady, Lady</td>
+                    <td>4:12</td>
                 </tr>
                 <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td>Imagination</td>
+                    <td>3:39</td>
                 </tr>
             </table>
         </div>
@@ -128,10 +129,10 @@ date: 2022-04-23 00:34:39
     /*重复径向渐变 从中心开始沿着四周产生渐变效果，模拟出唱片那种感觉，不喜欢可以注释或删掉*/
     background: repeating-radial-gradient(#111 0%, #000 2%);
     transition: all 0.3s linear;
-        box-shadow: rgba(0,0,0,0.5) 0px 0px 5px 2px;
+    box-shadow: rgba(0,0,0,0.5) 0px 0px 5px 2px;
 }
 .vinyl-cover{
-    background: url(https://s1.ax1x.com/2022/05/02/OPEFoV.jpg);
+    background: url(https://s1.ax1x.com/2022/05/31/X3Ngdf.jpg);
     width: 210px;
     height: 210px;
     position: absolute;
@@ -160,7 +161,7 @@ date: 2022-04-23 00:34:39
     border-radius: 100%;
     background-color: red;
     /*看不出旋转效果，所以使用图片*/
-    background: url("https://s1.ax1x.com/2022/05/02/OPE9Ln.jpg");
+    background: url("https://s1.ax1x.com/2022/06/02/XNAdE9.jpg");
     background-size: cover;
 }
 /*白色圆心，不需要可以直接删除，或者把背景色删掉或改为透明*/
@@ -169,7 +170,7 @@ date: 2022-04-23 00:34:39
     height: 42px;
     margin: 0 auto;
     border-radius: 100%;
-    background: rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0);
 }
 @keyframes circle{
     0%{
