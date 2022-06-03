@@ -1,6 +1,6 @@
 ---
 title: 『黑胶内录试听』What A Feeling - Irene Cara
-cover: 'https://s1.ax1x.com/2022/06/02/XNAUHJ.jpg'
+cover: 'https://s1.ax1x.com/2022/06/03/XaekIe.jpg'
 tags:
   - 黑胶
   - 音乐
@@ -15,7 +15,7 @@ swiper_index: 8
     <video playsinline="" controls="" preload="metadata" 
         src="https://video-direct-link.vercel.app/bili.mp4?aid=897012791&bvid=BV1UA4y1Z79Z&cid=735680628" 
         style="display: block; width: 100%;border-radius: 8px;"
-        poster="https://s1.ax1x.com/2022/06/02/XNANB4.jpg">
+        poster="https://s1.ax1x.com/2022/06/03/XaZjPJ.jpg">
     </video>
 </div>
 
