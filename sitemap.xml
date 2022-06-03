@@ -329,6 +329,20 @@
   </url>
   
   <url>
+    <loc>https://www.dadio.cc/tags/%E9%BB%91%E8%83%B6/</loc>
+    <lastmod>2022-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.dadio.cc/tags/%E9%9F%B3%E4%B9%90/</loc>
+    <lastmod>2022-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.dadio.cc/tags/%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2022-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -350,13 +364,6 @@
   </url>
   
   <url>
-    <loc>https://www.dadio.cc/tags/aplayer/</loc>
-    <lastmod>2022-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.dadio.cc/tags/%E5%AD%97%E4%BD%93%E5%8E%8B%E7%BC%A9/</loc>
     <lastmod>2022-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -364,14 +371,7 @@
   </url>
   
   <url>
-    <loc>https://www.dadio.cc/tags/%E9%BB%91%E8%83%B6/</loc>
-    <lastmod>2022-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.dadio.cc/tags/%E9%9F%B3%E4%B9%90/</loc>
+    <loc>https://www.dadio.cc/tags/aplayer/</loc>
     <lastmod>2022-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -394,14 +394,14 @@
   </url>
   
   <url>
-    <loc>https://www.dadio.cc/categories/%E5%89%8D%E7%AB%AF/</loc>
+    <loc>https://www.dadio.cc/categories/%E9%BB%91%E8%83%B6/</loc>
     <lastmod>2022-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.dadio.cc/categories/%E9%BB%91%E8%83%B6/</loc>
+    <loc>https://www.dadio.cc/categories/%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2022-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
