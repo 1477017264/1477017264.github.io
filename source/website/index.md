@@ -16,6 +16,7 @@ aside: false
 {% site 图片压缩, url=https://image-croppa.vercel.app/, screenshot=https://s1.ax1x.com/2022/05/31/X3NrQA.jpg, avatar=https://s1.ax1x.com/2022/05/31/X3NssI.png, description=在线图片裁剪压缩 %}
 {% site PNG转ICO, url=https://img-converyer.vercel.app/, screenshot=https://s1.ax1x.com/2022/05/31/XGZs4P.jpg, avatar=https://s1.ax1x.com/2022/05/31/XGZggS.png, description=正常人应该用不着这个 %}
 {% site 九宫格图片生成器, url=https://nine-spaces.vercel.app/, screenshot=https://s1.ax1x.com/2022/06/03/XaeKqf.jpg, avatar=https://s1.ax1x.com/2022/06/03/XaeGGj.png, description=在线生成九宫格图片组 %}
+{% site 图片水印生成器, url=https://image-watermark.vercel.app/, screenshot=https://s1.ax1x.com/2022/06/05/XwpCyF.jpg, avatar=https://s1.ax1x.com/2022/06/05/XwSLZj.png, description=在线生成图片水印 %}
 {% endsitegroup %}
 
 ## <i class="fas fa-chess"></i> 摸鱼网站合集
