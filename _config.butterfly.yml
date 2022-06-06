@@ -670,7 +670,7 @@ subtitle:
 preloader:
    enable: true # true|false
    load_color: '#000000' # '#37474f'
-   load_style: BB8 # default | gear | BB8 | Minecraft |
+   load_style: BB8 # default | gear | BB8 | Minecraft | circle
    load_image:  # url
 
 # aside (側邊欄)
