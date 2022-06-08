@@ -892,7 +892,6 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <link rel="stylesheet" href="/mycss/background.css">
     - <link rel="stylesheet" href="/css/custom/custom.css"  media="defer" onload="this.media='all'">
     - '<style type="text/css">.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body{left:-66px!important;}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover{left:0!important}</style>'
     - <link rel="preconnect" href="https://fonts.gstatic.com">

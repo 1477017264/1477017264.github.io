@@ -16,6 +16,10 @@ swiper_index: 7
 {% folding 时间线 %}
 
 {% timeline 唱片收录 · 持续更新 %}
+<!-- timeline 2022.6.8 -->
+{% checkbox plus blue checked, 新增 Aming - P.S. あなたへ...  %}
+<!-- endtimeline -->
+
 <!-- timeline 2022.5.30 -->
 {% checkbox plus blue checked, 新增 Various - Flashdance · 《闪电舞》电影原声大碟  %}
 <!-- endtimeline -->
@@ -52,7 +56,9 @@ swiper_index: 7
 ![松田聖子 - 風立ちぬ 7"](https://s1.ax1x.com/2022/05/28/XK0DSA.jpg)
 ![松田聖子 - 白いパラソル 7"](https://s1.ax1x.com/2022/05/28/XK0rQI.jpg)
 ![松田聖子 - Rock'n Rouge 7"](https://s1.ax1x.com/2022/05/28/XK0WFg.jpg)
-![Various - Flashdance (Original Soundtrack From The Motion Picture) ](https://s1.ax1x.com/2022/05/31/X3Ngdf.jpg)
+![Various - Flashdance (Original Soundtrack From The Motion Picture)](https://s1.ax1x.com/2022/05/31/X3Ngdf.jpg)
+![Aming – P.S. あなたへ...](https://s1.ax1x.com/2022/06/08/XrvZ7Q.jpg)
+
 {% endgallery %}
 
 ##2010s
