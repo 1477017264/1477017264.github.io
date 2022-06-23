@@ -16,6 +16,10 @@ swiper_index: 7
 {% folding 时间线 %}
 
 {% timeline 唱片收录 · 持续更新 %}
+<!-- timeline 2022.6.23 -->
+{% checkbox plus blue checked, 新增 松田聖子 - Candy、 贝多芬 - 第九交响曲 "合唱"、 Vivaldi - I Musici、 Vivaldi - The Four Seasons 四张唱片 %}
+<!-- endtimeline -->
+
 <!-- timeline 2022.6.8 -->
 {% checkbox plus blue checked, 新增 Aming - P.S. あなたへ...  %}
 <!-- endtimeline -->
@@ -36,6 +40,7 @@ swiper_index: 7
 ![Don Williams - Images](https://s1.ax1x.com/2022/05/28/XKVbC9.jpg)
 ![The Film Studio Orchestra - Themes From Italian Western Movies](https://s1.ax1x.com/2022/05/28/XKVq3R.jpg)
 ![グレープ - わすれもの](https://s1.ax1x.com/2022/05/28/XK0cef.jpg)
+![Vivaldi - The Four Seasons](https://s1.ax1x.com/2022/06/23/jPVXIs.jpg)
 {% endgallery %}
 
 ##1980s
@@ -57,7 +62,10 @@ swiper_index: 7
 ![松田聖子 - 白いパラソル 7"](https://s1.ax1x.com/2022/05/28/XK0rQI.jpg)
 ![松田聖子 - Rock'n Rouge 7"](https://s1.ax1x.com/2022/05/28/XK0WFg.jpg)
 ![Various - Flashdance (Original Soundtrack From The Motion Picture)](https://s1.ax1x.com/2022/05/31/X3Ngdf.jpg)
-![Aming – P.S. あなたへ...](https://s1.ax1x.com/2022/06/08/XrvZ7Q.jpg)
+![Aming - P.S. あなたへ...](https://s1.ax1x.com/2022/06/08/XrvZ7Q.jpg)
+![Vivaldi - I Musici, Heinz Holliger, Klaus Thunemann - 3 Concerti Per Oboe RV 446, 452, 454 / Concerto Per Oboe & Fagotto RV 545](https://s1.ax1x.com/2022/06/23/jPVvin.jpg)
+![贝多芬 - 第九交响曲 "合唱"](https://s1.ax1x.com/2022/06/23/jPVxGq.jpg)
+![松田聖子 - Candy](https://s1.ax1x.com/2022/06/23/jPVzR0.jpg)
 
 {% endgallery %}
 
