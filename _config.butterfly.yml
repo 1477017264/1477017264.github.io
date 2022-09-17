@@ -939,7 +939,7 @@ CDN:
   disqusjs:
   disqusjs_css:
   utterances:
-  twikoo: https://cdn.jsdelivr.net/npm/twikoo@1.5.11/dist/twikoo.all.min.js
+  twikoo: https://cdn.jsdelivr.net/npm/twikoo@1.6.7/dist/twikoo.all.min.js
   waline:
   giscus:
 
