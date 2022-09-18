@@ -356,7 +356,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: 'https://twikoo-1477017264.vercel.app/'  #'dadio-4gqe44lrd4788b52'
+  envId: 'https://twikoo.dadio.cc/'  #'dadio-4gqe44lrd4788b52'
   region: 'AWS N. Virginia (us-east-1)'
   visitor: true
   option:
@@ -1136,7 +1136,7 @@ swiper:
   enable: true # 开关
   priority: 5 #过滤器优先权
   enable_page: / # 应用页面
-  timemode: date #date/updated
+  timemode: updated #date/updated
   layout: # 挂载容器类型
     type: id
     name: recent-posts

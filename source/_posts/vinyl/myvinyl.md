@@ -8,7 +8,7 @@ keywords: 黑胶
 categories: 黑胶
 abbrlink: 22528
 date: 2022-05-28 03:03:39
-swiper_index: 7
+swiper_index: 8
 ---
 
 {% note 'fa-solid fa-record-vinyl' flat %}想了很久排版，最终决定使用年代递进的顺序（已唱片实际发行年份为准）。{% endnote %}
@@ -16,6 +16,10 @@ swiper_index: 7
 {% folding 时间线 %}
 
 {% timeline 唱片收录 · 持续更新 %}
+<!-- timeline 2022.9.18 -->
+{% checkbox plus blue checked, 新增 飯島真理 - My Heart In Red、 菊池桃子 - 卒業 7" 两张唱片 %}
+<!-- endtimeline -->
+
 <!-- timeline 2022.6.23 -->
 {% checkbox plus blue checked, 新增 松田聖子 - Candy、 贝多芬 - 第九交响曲 "合唱"、 Vivaldi - I Musici、 Vivaldi - The Four Seasons 四张唱片 %}
 <!-- endtimeline -->
@@ -66,6 +70,8 @@ swiper_index: 7
 ![Vivaldi - I Musici, Heinz Holliger, Klaus Thunemann - 3 Concerti Per Oboe RV 446, 452, 454 / Concerto Per Oboe & Fagotto RV 545](https://s1.ax1x.com/2022/06/23/jPVvin.jpg)
 ![贝多芬 - 第九交响曲 "合唱"](https://s1.ax1x.com/2022/06/23/jPVxGq.jpg)
 ![松田聖子 - Candy](https://s1.ax1x.com/2022/06/23/jPVzR0.jpg)
+![飯島真理 - My Heart In Red](https://s1.ax1x.com/2022/09/18/xpz5pF.jpg)
+![菊池桃子 - 卒業 7"](https://s1.ax1x.com/2022/09/18/xpzhfU.jpg)
 
 {% endgallery %}
 
