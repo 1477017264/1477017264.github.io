@@ -4,6 +4,39 @@
   
     
     <entry>
+      <title>解决vercel部署的twikoo评论系统国内无法加载的情况</title>
+      <link href="/posts/22919/"/>
+      <url>/posts/22919/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><div class="note green icon flat"><i class="note-icon fa-brands fa-canadian-maple-leaf"></i><p>由于vercel被墙，通过vercel部署的twikoo评论系统在国内会出现无法加载评论，云函数报错的问题，故出此教程。教程使用的域名等已腾讯云为例，万变不离其宗。</p></div><h2 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h2><ol><li>打开vercel，进入你的twikoo项目。（由于被墙，大概率需要科学上网）<br><img src="https://s1.ax1x.com/2022/09/19/xCSAiV.jpg" alt=""></li><li>进入 <code>Setting</code> -&gt; <code>Domains</code> ，在输入框中输入以创建你的子域名，如图所示，前缀随意，但建议使用twikoo方便管理。<br><img src="https://s1.ax1x.com/2022/09/19/xCSFI0.jpg" alt=""></li><li>子域名添加完成后会报错，如下图。不要关闭此页，下面的值一会要用。（我已经添加过子域名，所以图中的子域名为案例）<br><img src="https://s1.ax1x.com/2022/09/19/xCSEGT.jpg" alt=""></li><li>现在进入你的域名管理页面，以腾讯云为例。进入<code>我的域名</code>，选择你的域名，点击解析。<br><img src="https://s1.ax1x.com/2022/09/19/xCpWcD.jpg" alt=""></li><li>进入解析页面，点击添加记录；主机记录为刚刚vercel中<code>Name</code>，记录类型为<code>Type</code>，记录值为<code>Value</code>,依次填入后点击确认。<br><img src="https://s1.ax1x.com/2022/09/19/xCpR1O.jpg" alt=""></li><li>此时返回刚刚的vercel页面，会发现子域名已经没有报错了，如果没有反应可点击<code>Refresh</code>手动刷新。<br><img src="https://s1.ax1x.com/2022/09/19/xC9qaR.jpg" alt=""></li><li>然后在浏览器中输入你创建的子域名，确认云函数已经可以正常运行了。<br><img src="https://s1.ax1x.com/2022/09/19/xC9LI1.jpg" alt=""></li><li>最后，进入主题配置文件，找到<code>twikoo</code>的配置代码，并做如下修改。（这里以butterfly主题为例）<figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">twikoo:</span><br><span class="line"><span class="deletion">- envId: &#x27;你原来配置的vercel域名&#x27;</span></span><br><span class="line"><span class="addition">+ envId: &#x27;https://twikoo.dadio.cc/&#x27; #这里修改为你刚刚创建的子域名</span></span><br><span class="line">  region: &#x27;AWS N. Virginia (us-east-1)&#x27;</span><br><span class="line">  visitor: true</span><br><span class="line">  option:</span><br></pre></td></tr></table></figure></li></ol><ul><li>大功告成，现在上传你的代码看看是否生效吧！ </li></ul><h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><div class="note orange icon flat"><i class="note-icon fa-solid fa-laptop-code"></i><p>教程可能有不足或遗漏的地方，欢迎在评论区留言指正、提供建议。</p></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Butterfly </tag>
+            
+            <tag> 前端 </tag>
+            
+            <tag> HTML </tag>
+            
+            <tag> vercel </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>『黑胶内录试听』What A Feeling - Irene Cara</title>
       <link href="/posts/22602/"/>
       <url>/posts/22602/</url>
